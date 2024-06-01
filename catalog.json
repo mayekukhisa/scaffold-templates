@@ -3,6 +3,10 @@
       {
          "name": "blank",
          "path": "src/blank"
+      },
+      {
+         "name": "cli",
+         "path": "src/cli"
       }
    ]
 }

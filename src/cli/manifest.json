@@ -1,0 +1,73 @@
+{
+   "binaryFiles": [
+      {
+         "sourcePath": "binary/gradle-wrapper.jar",
+         "targetPath": "gradle/wrapper/gradle-wrapper.jar"
+      }
+   ],
+   "freemarkerFiles": [
+      {
+         "sourcePath": "freemarker/App.kt.ftl",
+         "targetPath": "src/main/kotlin/${packageName?replace('.', '/')}/App.kt"
+      },
+      {
+         "sourcePath": "freemarker/build.gradle.kts.ftl",
+         "targetPath": "build.gradle.kts"
+      },
+      {
+         "sourcePath": "freemarker/ExampleUnitTest.kt.ftl",
+         "targetPath": "src/test/kotlin/${packageName?replace('.', '/')}/ExampleUnitTest.kt"
+      },
+      {
+         "sourcePath": "freemarker/Main.kt.ftl",
+         "targetPath": "src/main/kotlin/${packageName?replace('.', '/')}/Main.kt"
+      },
+      {
+         "sourcePath": "freemarker/settings.gradle.kts.ftl",
+         "targetPath": "settings.gradle.kts"
+      }
+   ],
+   "textFiles": [
+      {
+         "sourcePath": "text/_editorconfig",
+         "targetPath": ".editorconfig"
+      },
+      {
+         "sourcePath": "text/_gitattributes",
+         "targetPath": ".gitattributes"
+      },
+      {
+         "sourcePath": "text/_gitignore",
+         "targetPath": ".gitignore"
+      },
+      {
+         "sourcePath": "text/_vscode-settings.json",
+         "targetPath": ".vscode/settings.json"
+      },
+      {
+         "sourcePath": "text/gradle-wrapper.properties",
+         "targetPath": "gradle/wrapper/gradle-wrapper.properties"
+      },
+      {
+         "sourcePath": "text/gradle.properties",
+         "targetPath": "gradle.properties"
+      },
+      {
+         "sourcePath": "text/gradlew",
+         "targetPath": "gradlew",
+         "executable": true
+      },
+      {
+         "sourcePath": "text/gradlew.bat",
+         "targetPath": "gradlew.bat"
+      },
+      {
+         "sourcePath": "text/libs.versions.toml",
+         "targetPath": "gradle/libs.versions.toml"
+      },
+      {
+         "sourcePath": "text/spotless-prettierrc.json",
+         "targetPath": "spotless/config/prettierrc.json"
+      }
+   ]
+}

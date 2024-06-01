@@ -36,6 +36,12 @@ spotless {
          prettier().configFile(this@with)
       }
    }
+
+   format("FreeMarker") {
+      target("**/src/**/*.ftl")
+      licenseHeaderFile(rootProject.file("spotless/copyright/freemarker.txt"), "^(?!<#| ~| -).")
+         .updateYearWithLatest(true)
+   }
 }
 
 repositories {
