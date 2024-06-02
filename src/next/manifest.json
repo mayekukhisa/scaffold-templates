@@ -1,0 +1,84 @@
+{
+   "binaryFiles": [
+      {
+         "sourcePath": "binary/favicon.ico",
+         "targetPath": "src/app/favicon.ico"
+      }
+   ],
+   "freemarkerFiles": [
+      {
+         "sourcePath": "freemarker/layout.tsx.ftl",
+         "targetPath": "src/app/layout.tsx"
+      },
+      {
+         "sourcePath": "freemarker/package.json.ftl",
+         "targetPath": "package.json"
+      },
+      {
+         "sourcePath": "freemarker/page.tsx.ftl",
+         "targetPath": "src/app/page.tsx"
+      }
+   ],
+   "textFiles": [
+      {
+         "sourcePath": "text/_codecaprc.json",
+         "targetPath": ".codecaprc.json"
+      },
+      {
+         "sourcePath": "text/_editorconfig",
+         "targetPath": ".editorconfig"
+      },
+      {
+         "sourcePath": "text/_eslintrc.json",
+         "targetPath": ".eslintrc.json"
+      },
+      {
+         "sourcePath": "text/_gitattributes",
+         "targetPath": ".gitattributes"
+      },
+      {
+         "sourcePath": "text/_gitignore",
+         "targetPath": ".gitignore"
+      },
+      {
+         "sourcePath": "text/_prettierrc.json",
+         "targetPath": ".prettierrc.json"
+      },
+      {
+         "sourcePath": "text/_vscode-settings.json",
+         "targetPath": ".vscode/settings.json"
+      },
+      {
+         "sourcePath": "text/general-header-template.txt",
+         "targetPath": "header-templates/general.txt"
+      },
+      {
+         "sourcePath": "text/globals.css",
+         "targetPath": "src/app/globals.css"
+      },
+      {
+         "sourcePath": "text/next-config-header-template.txt",
+         "targetPath": "header-templates/next-config.txt"
+      },
+      {
+         "sourcePath": "text/next.config.mjs",
+         "targetPath": "next.config.mjs"
+      },
+      {
+         "sourcePath": "text/postcss-config-header-template.txt",
+         "targetPath": "header-templates/postcss-config.txt"
+      },
+      {
+         "sourcePath": "text/postcss.config.mjs",
+         "targetPath": "postcss.config.mjs"
+      },
+      {
+         "sourcePath": "text/tailwind.config.ts",
+         "targetPath": "tailwind.config.ts"
+      },
+      {
+         "sourcePath": "text/tsconfig.json",
+         "targetPath": "tsconfig.json"
+      }
+   ]
+}

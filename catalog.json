@@ -11,6 +11,10 @@
       {
          "name": "cli",
          "path": "src/gradle/cli"
+      },
+      {
+         "name": "next",
+         "path": "src/next"
       }
    ]
 }
