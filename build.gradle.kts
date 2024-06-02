@@ -12,7 +12,7 @@ plugins {
 spotless {
    kotlinGradle {
       target("**/*.kts")
-      targetExclude("**/build/**/*.kts")
+      targetExclude("**/build/**/*.kts", "**/src/**/*.kts")
       ktlint()
       licenseHeaderFile(rootProject.file("spotless/copyright/kotlin.txt"), "^(?![\\/ ]\\*).").updateYearWithLatest(true)
    }

@@ -1,6 +1,7 @@
 {
    "binaryFiles": [
       {
+         "sourceRoot": "../shared",
          "sourcePath": "binary/gradle-wrapper.jar",
          "targetPath": "gradle/wrapper/gradle-wrapper.jar"
       }
@@ -29,6 +30,31 @@
    ],
    "textFiles": [
       {
+         "sourcePath": "text/_vscode-settings.json",
+         "targetPath": ".vscode/settings.json"
+      },
+      {
+         "sourceRoot": "../shared",
+         "sourcePath": "text/gradle-wrapper.properties",
+         "targetPath": "gradle/wrapper/gradle-wrapper.properties"
+      },
+      {
+         "sourceRoot": "../shared",
+         "sourcePath": "text/gradlew",
+         "targetPath": "gradlew",
+         "executable": true
+      },
+      {
+         "sourceRoot": "../shared",
+         "sourcePath": "text/gradlew.bat",
+         "targetPath": "gradlew.bat"
+      },
+      {
+         "sourceRoot": "../shared",
+         "sourcePath": "text/spotless-prettierrc.json",
+         "targetPath": "spotless/config/prettierrc.json"
+      },
+      {
          "sourcePath": "text/_editorconfig",
          "targetPath": ".editorconfig"
       },
@@ -41,33 +67,12 @@
          "targetPath": ".gitignore"
       },
       {
-         "sourcePath": "text/_vscode-settings.json",
-         "targetPath": ".vscode/settings.json"
-      },
-      {
-         "sourcePath": "text/gradle-wrapper.properties",
-         "targetPath": "gradle/wrapper/gradle-wrapper.properties"
-      },
-      {
          "sourcePath": "text/gradle.properties",
          "targetPath": "gradle.properties"
       },
       {
-         "sourcePath": "text/gradlew",
-         "targetPath": "gradlew",
-         "executable": true
-      },
-      {
-         "sourcePath": "text/gradlew.bat",
-         "targetPath": "gradlew.bat"
-      },
-      {
          "sourcePath": "text/libs.versions.toml",
          "targetPath": "gradle/libs.versions.toml"
-      },
-      {
-         "sourcePath": "text/spotless-prettierrc.json",
-         "targetPath": "spotless/config/prettierrc.json"
       }
    ]
 }

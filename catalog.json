@@ -5,8 +5,12 @@
          "path": "src/blank"
       },
       {
+         "name": "android",
+         "path": "src/gradle/android"
+      },
+      {
          "name": "cli",
-         "path": "src/cli"
+         "path": "src/gradle/cli"
       }
    ]
 }
