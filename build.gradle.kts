@@ -48,7 +48,7 @@ repositories {
    mavenCentral()
 }
 
-version = "0.1.0"
+version = rootProject.file("version.txt").readText().trim()
 
 distributions {
    main {
