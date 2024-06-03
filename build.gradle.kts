@@ -54,7 +54,7 @@ distributions {
    main {
       contents {
          from(".") {
-            include("src/**", "catalog.json")
+            include("src/**", "catalog.json", "LICENSE", "version.txt")
          }
       }
    }
