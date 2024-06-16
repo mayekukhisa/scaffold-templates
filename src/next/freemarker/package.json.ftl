@@ -12,8 +12,8 @@
       "dev": "next dev",
       "build": "next build",
       "start": "next start",
-      "lint": "next lint && codecap --check && prettier --check ./**/*.{css,json,mjs} tailwind.config.ts",
-      "format": "next lint --fix && codecap --fix && prettier --write ./**/*.{css,json,mjs} tailwind.config.ts"
+      "lint": "next lint && codecap --check && prettier --check ./**/*.{css,json,md,mjs,yml} tailwind.config.ts",
+      "format": "next lint --fix && codecap --fix && prettier --write ./**/*.{css,json,md,mjs,yml} tailwind.config.ts"
    },
    "dependencies": {
       "next": "^14.2.3",

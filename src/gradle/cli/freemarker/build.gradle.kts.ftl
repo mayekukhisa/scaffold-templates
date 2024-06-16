@@ -33,6 +33,18 @@ spotless {
          targetExclude("**/build/**/*.json")
          prettier().configFile(this@with)
       }
+
+      format("Markdown") {
+         target("**/*.md")
+         targetExclude("**/build/**/*.md")
+         prettier().configFile(this@with)
+      }
+
+      format("Yaml") {
+         target("**/*.yml")
+         targetExclude("**/build/**/*.yml")
+         prettier().configFile(this@with)
+      }
    }
 }
 
