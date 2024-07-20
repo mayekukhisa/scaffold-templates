@@ -15,16 +15,20 @@ kotlin {
 }
 
 spotless {
-   kotlin {
-      target("**/*.kt")
-      targetExclude("**/build/**/*.kt")
-      ktlint()
-   }
+   with(rootProject.file("spotless/headers/kotlin.txt")) {
+      kotlin {
+         target("**/*.kt")
+         targetExclude("**/build/**/*.kt")
+         ktlint()
+         licenseHeaderFile(this@with).updateYearWithLatest(true)
+      }
 
-   kotlinGradle {
-      target("**/*.kts")
-      targetExclude("**/build/**/*.kts")
-      ktlint()
+      kotlinGradle {
+         target("**/*.kts")
+         targetExclude("**/build/**/*.kts")
+         ktlint()
+         licenseHeaderFile(this@with, "^(?![\\/ ]\\*).").updateYearWithLatest(true)
+      }
    }
 
    with(rootProject.file("spotless/configs/prettierrc.json")) {

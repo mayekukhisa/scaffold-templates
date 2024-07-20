@@ -8,16 +8,20 @@ plugins {
 
 spotless {
    mapOf("ktlint_function_naming_ignore_when_annotated_with" to "Composable").let { config ->
-      kotlin {
-         target("**/*.kt")
-         targetExclude("**/build/**/*.kt")
-         ktlint().editorConfigOverride(config)
-      }
+      with(rootProject.file("spotless/headers/kotlin.txt")) {
+         kotlin {
+            target("**/*.kt")
+            targetExclude("**/build/**/*.kt")
+            ktlint().editorConfigOverride(config)
+            licenseHeaderFile(this@with).updateYearWithLatest(true)
+         }
 
-      kotlinGradle {
-         target("**/*.kts")
-         targetExclude("**/build/**/*.kts")
-         ktlint().editorConfigOverride(config)
+         kotlinGradle {
+            target("**/*.kts")
+            targetExclude("**/build/**/*.kts")
+            ktlint().editorConfigOverride(config)
+            licenseHeaderFile(this@with, "^(?![\\/ ]\\*).").updateYearWithLatest(true)
+         }
       }
    }
 
@@ -27,6 +31,7 @@ spotless {
       eclipseWtp(EclipseWtpFormatterStep.XML).configFile(
          rootProject.file("spotless/configs/xml.prefs"),
       )
+      licenseHeaderFile(rootProject.file("spotless/headers/xml.txt"), "^<[^!?]").updateYearWithLatest(true)
    }
 
    with(rootProject.file("spotless/configs/prettierrc.json")) {

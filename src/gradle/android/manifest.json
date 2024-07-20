@@ -117,6 +117,11 @@
       },
       {
          "sourceRoot": "../shared",
+         "sourcePath": "text/spotless-kotlin-header.txt",
+         "targetPath": "spotless/headers/kotlin.txt"
+      },
+      {
+         "sourceRoot": "../shared",
          "sourcePath": "text/spotless-prettier-config.json",
          "targetPath": "spotless/configs/prettierrc.json"
       },
@@ -171,6 +176,10 @@
       {
          "sourcePath": "text/proguard-rules.pro",
          "targetPath": "app/proguard-rules.pro"
+      },
+      {
+         "sourcePath": "text/spotless-xml-header.txt",
+         "targetPath": "spotless/headers/xml.txt"
       },
       {
          "sourcePath": "text/spotless-xml-config.prefs",

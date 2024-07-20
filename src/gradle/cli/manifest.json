@@ -61,6 +61,11 @@
       },
       {
          "sourceRoot": "../shared",
+         "sourcePath": "text/spotless-kotlin-header.txt",
+         "targetPath": "spotless/headers/kotlin.txt"
+      },
+      {
+         "sourceRoot": "../shared",
          "sourcePath": "text/spotless-prettier-config.json",
          "targetPath": "spotless/configs/prettierrc.json"
       },
