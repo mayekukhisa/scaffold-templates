@@ -61,8 +61,8 @@
       },
       {
          "sourceRoot": "../shared",
-         "sourcePath": "text/spotless-prettierrc.json",
-         "targetPath": "spotless/config/prettierrc.json"
+         "sourcePath": "text/spotless-prettier-config.json",
+         "targetPath": "spotless/configs/prettierrc.json"
       },
       {
          "sourcePath": "text/_editorconfig",

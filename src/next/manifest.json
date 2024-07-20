@@ -59,24 +59,24 @@
          "targetPath": ".vscode/settings.json"
       },
       {
-         "sourcePath": "text/general-header-template.txt",
-         "targetPath": "header-templates/general.txt"
+         "sourcePath": "text/codecap-general-header.txt",
+         "targetPath": "codecap/general-header.txt"
       },
       {
          "sourcePath": "text/globals.css",
          "targetPath": "src/app/globals.css"
       },
       {
-         "sourcePath": "text/next-config-header-template.txt",
-         "targetPath": "header-templates/next-config.txt"
+         "sourcePath": "text/codecap-next-config-header.txt",
+         "targetPath": "codecap/next-config-header.txt"
       },
       {
          "sourcePath": "text/next.config.mjs",
          "targetPath": "next.config.mjs"
       },
       {
-         "sourcePath": "text/postcss-config-header-template.txt",
-         "targetPath": "header-templates/postcss-config.txt"
+         "sourcePath": "text/codecap-postcss-config-header.txt",
+         "targetPath": "codecap/postcss-config-header.txt"
       },
       {
          "sourcePath": "text/postcss.config.mjs",

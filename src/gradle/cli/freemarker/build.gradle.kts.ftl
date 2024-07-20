@@ -27,7 +27,7 @@ spotless {
       ktlint()
    }
 
-   with(rootProject.file("spotless/config/prettierrc.json")) {
+   with(rootProject.file("spotless/configs/prettierrc.json")) {
       json {
          target("**/*.json")
          targetExclude("**/build/**/*.json")

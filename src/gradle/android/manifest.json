@@ -117,8 +117,8 @@
       },
       {
          "sourceRoot": "../shared",
-         "sourcePath": "text/spotless-prettierrc.json",
-         "targetPath": "spotless/config/prettierrc.json"
+         "sourcePath": "text/spotless-prettier-config.json",
+         "targetPath": "spotless/configs/prettierrc.json"
       },
       {
          "sourcePath": "text/_editorconfig",
@@ -173,8 +173,8 @@
          "targetPath": "app/proguard-rules.pro"
       },
       {
-         "sourcePath": "text/spotless-xml.prefs",
-         "targetPath": "spotless/config/xml.prefs"
+         "sourcePath": "text/spotless-xml-config.prefs",
+         "targetPath": "spotless/configs/xml.prefs"
       },
       {
          "sourcePath": "text/themes.xml",
