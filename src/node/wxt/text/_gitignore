@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files
+
+# Debug
+*.log
+lerna-debug.log*
+logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+.pnp.js
+.pnp/
+.yarn/
+node_modules/
+
+# Env file
+.env
+
+# Misc
+*.pem
+.DS_Store
+
+# Testing
+coverage/
+
+# WXT
+.output/
+.wxt/
+stats-*.json
+stats.html
+web-ext.config.ts

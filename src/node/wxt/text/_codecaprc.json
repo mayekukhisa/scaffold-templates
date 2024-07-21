@@ -1,0 +1,16 @@
+{
+   "useYearRange": true,
+   "ruleSet": [
+      {
+         "target": "**/*.{css,ts,tsx}",
+         "targetExclude": ["node_modules/**", ".output/**", ".wxt/**"],
+         "headerFile": "codecap/general-header.txt",
+         "headerDelimiter": "^(?![\\/ ]\\*)."
+      },
+      {
+         "target": "postcss.config.mjs",
+         "headerFile": "codecap/postcss-config-header.txt",
+         "headerDelimiter": "^(?![\\/ ]\\*)."
+      }
+   ]
+}
