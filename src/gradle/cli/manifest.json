@@ -40,6 +40,10 @@
          "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
       },
       {
+         "sourcePath": "text/_vscode-extensions.json",
+         "targetPath": ".vscode/extensions.json"
+      },
+      {
          "sourcePath": "text/_vscode-settings.json",
          "targetPath": ".vscode/settings.json"
       },

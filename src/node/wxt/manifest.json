@@ -57,6 +57,11 @@
       },
       {
          "sourceRoot": "../shared",
+         "sourcePath": "text/_vscode-extensions.json",
+         "targetPath": ".vscode/extensions.json"
+      },
+      {
+         "sourceRoot": "../shared",
          "sourcePath": "text/_prettierrc.json",
          "targetPath": ".prettierrc.json"
       },
