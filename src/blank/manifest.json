@@ -13,15 +13,15 @@
          "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
       },
       {
-         "sourcePath": "text/_editorconfig.txt",
+         "sourcePath": "text/_editorconfig",
          "targetPath": ".editorconfig"
       },
       {
-         "sourcePath": "text/_gitattributes.txt",
+         "sourcePath": "text/_gitattributes",
          "targetPath": ".gitattributes"
       },
       {
-         "sourcePath": "text/_gitignore.txt",
+         "sourcePath": "text/_gitignore",
          "targetPath": ".gitignore"
       },
       {
