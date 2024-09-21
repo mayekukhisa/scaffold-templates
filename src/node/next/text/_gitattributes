@@ -1,5 +1,2 @@
-# All text files should be normalized (line endings converted to LF)
-* text=auto
-
-# Binary files should be left alone
-*.ico binary
+# All text files should use LF line endings
+* text=auto eol=lf

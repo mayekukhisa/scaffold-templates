@@ -1,8 +1,5 @@
-# All text files should be normalized (line endings converted to LF)
-* text=auto
+# All text files should use LF line endings
+* text=auto eol=lf
 
-# Windows files should use CRLF line endings
+# Windows-specific text files should use CRLF line endings
 *.bat text eol=crlf
-
-# Binary files should be left untouched
-*.jar binary
