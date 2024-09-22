@@ -27,7 +27,7 @@ spotless {
 
    format("Xml") {
       target("**/*.xml")
-      targetExclude("**/build/**/*.xml")
+      targetExclude("**/build/**/*.xml", ".idea/**/*.xml")
       eclipseWtp(EclipseWtpFormatterStep.XML).configFile(
          rootProject.file("spotless/configs/xml.prefs"),
       )

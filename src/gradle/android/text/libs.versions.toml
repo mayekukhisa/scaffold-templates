@@ -1,14 +1,14 @@
 [versions]
-activity-compose = "1.9.0"
-agp = "8.4.1"
-compose-bom = "2024.05.00"
-compose-compiler = "1.5.14"
+activity-compose = "1.9.2"
+agp = "8.6.1"
+compose-bom = "2024.09.02"
+compose-compiler = "1.5.15"
 core-ktx = "1.13.1"
-espresso-core = "3.5.1"
+espresso-core = "3.6.1"
 junit = "4.13.2"
-junit-ktx = "1.1.5"
-kotlin = "1.9.24"
-lifecycle-runtime-ktx = "2.8.1"
+junit-ktx = "1.2.1"
+kotlin = "1.9.25"
+lifecycle-runtime-ktx = "2.8.6"
 spotless = "6.25.0"
 
 [libraries]
