@@ -12,29 +12,29 @@
       "dev": "next dev",
       "build": "next build",
       "start": "next start",
-      "lint": "next lint && codecap --check && prettier --check ./**/*.{css,json,md,mjs,yml} tailwind.config.ts",
-      "format": "next lint --fix && codecap --fix && prettier --write ./**/*.{css,json,md,mjs,yml} tailwind.config.ts"
+      "check": "next lint && codecap --check && prettier --check \"**/*.{css,json,md,mjs,yml}\" tailwind.config.ts",
+      "fix": "next lint --fix && codecap --fix && prettier --write \"**/*.{css,json,md,mjs,yml}\" tailwind.config.ts"
    },
    "dependencies": {
-      "next": "^14.2.3",
+      "next": "^14.2.13",
       "react": "^18.3.1",
       "react-dom": "^18.3.1"
    },
    "devDependencies": {
-      "@types/node": "^20.13.0",
-      "@types/react": "^18.3.3",
+      "@types/node": "^22.5.5",
+      "@types/react": "^18.3.8",
       "@types/react-dom": "^18.3.0",
-      "codecap": "^0.2.0",
-      "eslint": "^8.57.0",
-      "eslint-config-next": "^14.2.3",
+      "codecap": "^0.3.1",
+      "eslint": "^8.57.1",
+      "eslint-config-next": "^14.2.13",
       "eslint-config-prettier": "^9.1.0",
-      "eslint-plugin-prettier": "^5.1.3",
-      "eslint-plugin-simple-import-sort": "^12.1.0",
-      "eslint-plugin-tailwindcss": "^3.17.0",
-      "postcss": "^8.4.38",
-      "prettier": "^3.3.0",
-      "prettier-plugin-tailwindcss": "^0.5.14",
-      "tailwindcss": "^3.4.3",
-      "typescript": "^5.4.5"
+      "eslint-plugin-prettier": "^5.2.1",
+      "eslint-plugin-simple-import-sort": "^12.1.1",
+      "eslint-plugin-tailwindcss": "^3.17.4",
+      "postcss": "^8.4.47",
+      "prettier": "^3.3.3",
+      "prettier-plugin-tailwindcss": "^0.6.6",
+      "tailwindcss": "^3.4.12",
+      "typescript": "^5.6.2"
    }
 }

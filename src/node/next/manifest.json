@@ -7,8 +7,8 @@
    ],
    "freemarkerFiles": [
       {
-         "sourcePath": "freemarker/layout.tsx.ftl",
-         "targetPath": "src/app/layout.tsx"
+         "sourcePath": "freemarker/configs.ts.ftl",
+         "targetPath": "src/lib/configs.ts"
       },
       {
          "sourcePath": "freemarker/package.json.ftl",
@@ -99,6 +99,10 @@
       {
          "sourcePath": "text/tsconfig.json",
          "targetPath": "tsconfig.json"
+      },
+      {
+         "sourcePath": "text/layout.tsx",
+         "targetPath": "src/app/layout.tsx"
       }
    ]
 }
