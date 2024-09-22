@@ -1,4 +1,4 @@
-<#-- 
+<#--
  ~ Copyright 2024 Mayeku Khisa
  ~
  ~ Use of this source code is governed by a MIT license as appearing in the

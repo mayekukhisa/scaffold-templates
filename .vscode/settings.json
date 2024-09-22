@@ -18,5 +18,7 @@
    "editor.wordWrap": "wordWrapColumn",
    "editor.wordWrapColumn": 120,
    "editor.wrappingIndent": "indent",
-   "files.insertFinalNewline": true
+   "files.insertFinalNewline": true,
+   "files.trimFinalNewlines": true,
+   "files.trimTrailingWhitespace": true
 }

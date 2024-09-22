@@ -14,10 +14,10 @@ spotless {
       target("**/*.kts")
       targetExclude("**/build/**/*.kts", "**/src/**/*.kts")
       ktlint()
-      licenseHeaderFile(rootProject.file("spotless/copyright/kotlin.txt"), "^(?![\\/ ]\\*).").updateYearWithLatest(true)
+      licenseHeaderFile(rootProject.file("spotless/headers/kotlin.txt"), "^(?![\\/ ]\\*).").updateYearWithLatest(true)
    }
 
-   with(rootProject.file("spotless/config/prettierrc.json")) {
+   with(rootProject.file("spotless/configs/prettierrc.json")) {
       json {
          target("**/*.json")
          targetExclude("**/build/**/*.json")
@@ -39,7 +39,7 @@ spotless {
 
    format("FreeMarker") {
       target("**/src/**/*.ftl")
-      licenseHeaderFile(rootProject.file("spotless/copyright/freemarker.txt"), "^(?!<#| ~| -).")
+      licenseHeaderFile(rootProject.file("spotless/headers/freemarker.txt"), "^(?!<#| ~| -).")
          .updateYearWithLatest(true)
    }
 }
