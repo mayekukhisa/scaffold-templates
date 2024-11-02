@@ -66,6 +66,12 @@ spotless {
          rootProject.file("spotless/configs/xml.prefs"),
       )
    }
+
+   shell {
+      target("scripts/**/*.sh")
+      shfmt("v3.10.0")
+      licenseHeaderFile(rootProject.file("spotless/shell-header.txt"), "^(?!#!|#).")
+   }
 }
 
 repositories {
@@ -88,5 +94,15 @@ tasks {
    named<Tar>("distTar") {
       compression = Compression.GZIP
       archiveExtension.set("tar.gz")
+   }
+
+   register<Exec>("test") {
+      group = "verification"
+      description = "Runs the test suite"
+      commandLine("bash", "scripts/run-tests.sh")
+   }
+
+   named("build") {
+      dependsOn("test")
    }
 }

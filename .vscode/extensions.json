@@ -1,3 +1,8 @@
 {
-   "recommendations": ["esbenp.prettier-vscode", "vscjava.vscode-gradle", "redhat.vscode-xml"]
+   "recommendations": [
+      "esbenp.prettier-vscode",
+      "foxundermoon.shell-format",
+      "vscjava.vscode-gradle",
+      "redhat.vscode-xml"
+   ]
 }

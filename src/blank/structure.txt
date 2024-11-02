@@ -1,0 +1,6 @@
+644 ./.editorconfig
+644 ./.gitattributes
+644 ./.github/ISSUE_TEMPLATE/bug_report.md
+644 ./.github/ISSUE_TEMPLATE/config.yml
+644 ./.gitignore
+644 ./.vscode/settings.json
