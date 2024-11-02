@@ -4,6 +4,8 @@
  * Use of this source code is governed by a MIT license as appearing in the
  * LICENSE file included in the root of this source tree.
  */
+import com.diffplug.spotless.extra.wtp.EclipseWtpFormatterStep
+
 plugins {
    distribution
    alias(libs.plugins.diffplug.spotless)
@@ -18,9 +20,24 @@ spotless {
    }
 
    with(rootProject.file("spotless/configs/prettierrc.json")) {
+      javascript {
+         target("src/**/*.mjs")
+         prettier().configFile(this@with)
+      }
+
       json {
          target("**/*.json")
          targetExclude("**/build/**/*.json")
+         prettier().configFile(this@with)
+      }
+
+      typescript {
+         target("src/**/*.ts", "src/**/*.tsx")
+         prettier().configFile(this@with)
+      }
+
+      format("Css") {
+         target("src/**/*.css")
          prettier().configFile(this@with)
       }
 
@@ -38,9 +55,16 @@ spotless {
    }
 
    format("FreeMarker") {
-      target("**/src/**/*.ftl")
+      target("src/**/*.ftl")
       licenseHeaderFile(rootProject.file("spotless/headers/freemarker.txt"), "^(?!<#| ~| -).")
          .updateYearWithLatest(true)
+   }
+
+   format("Xml") {
+      target("src/**/*.xml")
+      eclipseWtp(EclipseWtpFormatterStep.XML).configFile(
+         rootProject.file("spotless/configs/xml.prefs"),
+      )
    }
 }
 

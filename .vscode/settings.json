@@ -1,16 +1,17 @@
 {
-   "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-   },
-   "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   "[ignore]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
    },
    "[markdown]": {
-      "editor.wordWrap": "wordWrapColumn"
+      "editor.wordWrap": "bounded"
    },
-   "[yaml]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   "[properties]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
    },
+   "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml"
+   },
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
    "editor.detectIndentation": false,
    "editor.formatOnSave": true,
    "editor.rulers": [120],
@@ -20,5 +21,6 @@
    "editor.wrappingIndent": "indent",
    "files.insertFinalNewline": true,
    "files.trimFinalNewlines": true,
-   "files.trimTrailingWhitespace": true
+   "files.trimTrailingWhitespace": true,
+   "xml.format.maxLineWidth": 120
 }
