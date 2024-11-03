@@ -31,14 +31,14 @@ If applicable, add screenshots to help explain your problem.
 
 Provide details about your environment:
 
--  OS: [e.g. Windows 11, macOS Sonoma]
--  Scaffold version
--  Scaffold template collection version
+- OS: [e.g. Windows 11, macOS Sonoma]
+- Scaffold version
+- Scaffold template collection version
 
 ### Additional Context
 
 Add any other context about the problem here:
 
--  Error messages,
--  Date and time the bug occurred,
--  Steps you’ve taken to troubleshoot, etc.
+- Error messages,
+- Date and time the bug occurred,
+- Steps you’ve taken to troubleshoot, etc.

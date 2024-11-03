@@ -1,24 +1,24 @@
 {
-   "templates": [
-      {
-         "name": "blank",
-         "path": "src/blank"
-      },
-      {
-         "name": "android",
-         "path": "src/gradle/android"
-      },
-      {
-         "name": "cli",
-         "path": "src/gradle/cli"
-      },
-      {
-         "name": "next",
-         "path": "src/node/next"
-      },
-      {
-         "name": "wxt",
-         "path": "src/node/wxt"
-      }
-   ]
+  "templates": [
+    {
+      "name": "blank",
+      "path": "src/blank"
+    },
+    {
+      "name": "android",
+      "path": "src/gradle/android"
+    },
+    {
+      "name": "cli",
+      "path": "src/gradle/cli"
+    },
+    {
+      "name": "next",
+      "path": "src/node/next"
+    },
+    {
+      "name": "wxt",
+      "path": "src/node/wxt"
+    }
+  ]
 }

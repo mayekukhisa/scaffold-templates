@@ -1,29 +1,29 @@
 {
-   "[ignore]": {
-      "editor.defaultFormatter": "foxundermoon.shell-format"
-   },
-   "[markdown]": {
-      "editor.wordWrap": "bounded"
-   },
-   "[properties]": {
-      "editor.defaultFormatter": "foxundermoon.shell-format"
-   },
-   "[shellscript]": {
-      "editor.defaultFormatter": "foxundermoon.shell-format"
-   },
-   "[xml]": {
-      "editor.defaultFormatter": "redhat.vscode-xml"
-   },
-   "editor.defaultFormatter": "esbenp.prettier-vscode",
-   "editor.detectIndentation": false,
-   "editor.formatOnSave": true,
-   "editor.rulers": [120],
-   "editor.tabSize": 3,
-   "editor.wordWrap": "wordWrapColumn",
-   "editor.wordWrapColumn": 120,
-   "editor.wrappingIndent": "indent",
-   "files.insertFinalNewline": true,
-   "files.trimFinalNewlines": true,
-   "files.trimTrailingWhitespace": true,
-   "xml.format.maxLineWidth": 120
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "bounded"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.rulers": [120],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.wrappingIndent": "indent",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "xml.format.maxLineWidth": 120
 }

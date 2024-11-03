@@ -1,121 +1,121 @@
 {
-   "binaryFiles": [
-      {
-         "sourcePath": "binary/icon/16.png",
-         "targetPath": "src/public/icon/16.png"
-      },
-      {
-         "sourcePath": "binary/icon/32.png",
-         "targetPath": "src/public/icon/32.png"
-      },
-      {
-         "sourcePath": "binary/icon/48.png",
-         "targetPath": "src/public/icon/48.png"
-      },
-      {
-         "sourcePath": "binary/icon/96.png",
-         "targetPath": "src/public/icon/96.png"
-      },
-      {
-         "sourcePath": "binary/icon/128.png",
-         "targetPath": "src/public/icon/128.png"
-      }
-   ],
-   "freemarkerFiles": [
-      {
-         "sourcePath": "freemarker/app.tsx.ftl",
-         "targetPath": "src/entrypoints/popup/app.tsx"
-      },
-      {
-         "sourcePath": "freemarker/index.html.ftl",
-         "targetPath": "src/entrypoints/popup/index.html"
-      },
-      {
-         "sourcePath": "freemarker/package.json.ftl",
-         "targetPath": "package.json"
-      },
-      {
-         "sourcePath": "freemarker/wxt.config.ts.ftl",
-         "targetPath": "wxt.config.ts"
-      }
-   ],
-   "textFiles": [
-      {
-         "sourceRoot": "../../shared",
-         "sourcePath": "text/_github-bug_report_template.md",
-         "targetPath": ".github/ISSUE_TEMPLATE/bug_report.md"
-      },
-      {
-         "sourceRoot": "../../shared",
-         "sourcePath": "text/_github-issue_template_config.yml",
-         "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/_editorconfig",
-         "targetPath": ".editorconfig"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/_vscode-extensions.json",
-         "targetPath": ".vscode/extensions.json"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/_prettierrc.json",
-         "targetPath": ".prettierrc.json"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/codecap-general-header.txt",
-         "targetPath": "codecap/general-header.txt"
-      },
+  "binaryFiles": [
+    {
+      "sourcePath": "binary/icon/16.png",
+      "targetPath": "src/public/icon/16.png"
+    },
+    {
+      "sourcePath": "binary/icon/32.png",
+      "targetPath": "src/public/icon/32.png"
+    },
+    {
+      "sourcePath": "binary/icon/48.png",
+      "targetPath": "src/public/icon/48.png"
+    },
+    {
+      "sourcePath": "binary/icon/96.png",
+      "targetPath": "src/public/icon/96.png"
+    },
+    {
+      "sourcePath": "binary/icon/128.png",
+      "targetPath": "src/public/icon/128.png"
+    }
+  ],
+  "freemarkerFiles": [
+    {
+      "sourcePath": "freemarker/app.tsx.ftl",
+      "targetPath": "src/entrypoints/popup/app.tsx"
+    },
+    {
+      "sourcePath": "freemarker/index.html.ftl",
+      "targetPath": "src/entrypoints/popup/index.html"
+    },
+    {
+      "sourcePath": "freemarker/package.json.ftl",
+      "targetPath": "package.json"
+    },
+    {
+      "sourcePath": "freemarker/wxt.config.ts.ftl",
+      "targetPath": "wxt.config.ts"
+    }
+  ],
+  "textFiles": [
+    {
+      "sourceRoot": "../../shared",
+      "sourcePath": "text/_github-bug_report_template.md",
+      "targetPath": ".github/ISSUE_TEMPLATE/bug_report.md"
+    },
+    {
+      "sourceRoot": "../../shared",
+      "sourcePath": "text/_github-issue_template_config.yml",
+      "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/_editorconfig",
+      "targetPath": ".editorconfig"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/_vscode-extensions.json",
+      "targetPath": ".vscode/extensions.json"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/_prettierrc.json",
+      "targetPath": ".prettierrc.json"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/codecap-general-header.txt",
+      "targetPath": "codecap/general-header.txt"
+    },
 
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/codecap-postcss-config-header.txt",
-         "targetPath": "codecap/postcss-config-header.txt"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/globals.css",
-         "targetPath": "src/assets/globals.css"
-      },
-      {
-         "sourcePath": "text/_codecaprc.json",
-         "targetPath": ".codecaprc.json"
-      },
-      {
-         "sourcePath": "text/_eslintrc.json",
-         "targetPath": ".eslintrc.json"
-      },
-      {
-         "sourcePath": "text/_gitattributes",
-         "targetPath": ".gitattributes"
-      },
-      {
-         "sourcePath": "text/_gitignore",
-         "targetPath": ".gitignore"
-      },
-      {
-         "sourcePath": "text/_vscode-settings.json",
-         "targetPath": ".vscode/settings.json"
-      },
-      {
-         "sourcePath": "text/main.tsx",
-         "targetPath": "src/entrypoints/popup/main.tsx"
-      },
-      {
-         "sourcePath": "text/postcss.config.mjs",
-         "targetPath": "postcss.config.mjs"
-      },
-      {
-         "sourcePath": "text/tailwind.config.ts",
-         "targetPath": "tailwind.config.ts"
-      },
-      {
-         "sourcePath": "text/tsconfig.json",
-         "targetPath": "tsconfig.json"
-      }
-   ]
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/codecap-postcss-config-header.txt",
+      "targetPath": "codecap/postcss-config-header.txt"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/globals.css",
+      "targetPath": "src/assets/globals.css"
+    },
+    {
+      "sourcePath": "text/_codecaprc.json",
+      "targetPath": ".codecaprc.json"
+    },
+    {
+      "sourcePath": "text/_eslintrc.json",
+      "targetPath": ".eslintrc.json"
+    },
+    {
+      "sourcePath": "text/_gitattributes",
+      "targetPath": ".gitattributes"
+    },
+    {
+      "sourcePath": "text/_gitignore",
+      "targetPath": ".gitignore"
+    },
+    {
+      "sourcePath": "text/_vscode-settings.json",
+      "targetPath": ".vscode/settings.json"
+    },
+    {
+      "sourcePath": "text/main.tsx",
+      "targetPath": "src/entrypoints/popup/main.tsx"
+    },
+    {
+      "sourcePath": "text/postcss.config.mjs",
+      "targetPath": "postcss.config.mjs"
+    },
+    {
+      "sourcePath": "text/tailwind.config.ts",
+      "targetPath": "tailwind.config.ts"
+    },
+    {
+      "sourcePath": "text/tsconfig.json",
+      "targetPath": "tsconfig.json"
+    }
+  ]
 }

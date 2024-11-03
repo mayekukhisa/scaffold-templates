@@ -1,108 +1,108 @@
 {
-   "binaryFiles": [
-      {
-         "sourcePath": "binary/favicon.ico",
-         "targetPath": "src/app/favicon.ico"
-      }
-   ],
-   "freemarkerFiles": [
-      {
-         "sourcePath": "freemarker/configs.ts.ftl",
-         "targetPath": "src/lib/configs.ts"
-      },
-      {
-         "sourcePath": "freemarker/package.json.ftl",
-         "targetPath": "package.json"
-      },
-      {
-         "sourcePath": "freemarker/page.tsx.ftl",
-         "targetPath": "src/app/page.tsx"
-      }
-   ],
-   "textFiles": [
-      {
-         "sourceRoot": "../../shared",
-         "sourcePath": "text/_github-bug_report_template.md",
-         "targetPath": ".github/ISSUE_TEMPLATE/bug_report.md"
-      },
-      {
-         "sourceRoot": "../../shared",
-         "sourcePath": "text/_github-issue_template_config.yml",
-         "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/_vscode-extensions.json",
-         "targetPath": ".vscode/extensions.json"
-      },
-      {
-         "sourcePath": "text/_codecaprc.json",
-         "targetPath": ".codecaprc.json"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/_editorconfig",
-         "targetPath": ".editorconfig"
-      },
-      {
-         "sourcePath": "text/_eslintrc.json",
-         "targetPath": ".eslintrc.json"
-      },
-      {
-         "sourcePath": "text/_gitattributes",
-         "targetPath": ".gitattributes"
-      },
-      {
-         "sourcePath": "text/_gitignore",
-         "targetPath": ".gitignore"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/_prettierrc.json",
-         "targetPath": ".prettierrc.json"
-      },
-      {
-         "sourcePath": "text/_vscode-settings.json",
-         "targetPath": ".vscode/settings.json"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/codecap-general-header.txt",
-         "targetPath": "codecap/general-header.txt"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/globals.css",
-         "targetPath": "src/app/globals.css"
-      },
-      {
-         "sourcePath": "text/codecap-next-config-header.txt",
-         "targetPath": "codecap/next-config-header.txt"
-      },
-      {
-         "sourcePath": "text/next.config.mjs",
-         "targetPath": "next.config.mjs"
-      },
-      {
-         "sourceRoot": "../shared",
-         "sourcePath": "text/codecap-postcss-config-header.txt",
-         "targetPath": "codecap/postcss-config-header.txt"
-      },
-      {
-         "sourcePath": "text/postcss.config.mjs",
-         "targetPath": "postcss.config.mjs"
-      },
-      {
-         "sourcePath": "text/tailwind.config.ts",
-         "targetPath": "tailwind.config.ts"
-      },
-      {
-         "sourcePath": "text/tsconfig.json",
-         "targetPath": "tsconfig.json"
-      },
-      {
-         "sourcePath": "text/layout.tsx",
-         "targetPath": "src/app/layout.tsx"
-      }
-   ]
+  "binaryFiles": [
+    {
+      "sourcePath": "binary/favicon.ico",
+      "targetPath": "src/app/favicon.ico"
+    }
+  ],
+  "freemarkerFiles": [
+    {
+      "sourcePath": "freemarker/configs.ts.ftl",
+      "targetPath": "src/lib/configs.ts"
+    },
+    {
+      "sourcePath": "freemarker/package.json.ftl",
+      "targetPath": "package.json"
+    },
+    {
+      "sourcePath": "freemarker/page.tsx.ftl",
+      "targetPath": "src/app/page.tsx"
+    }
+  ],
+  "textFiles": [
+    {
+      "sourceRoot": "../../shared",
+      "sourcePath": "text/_github-bug_report_template.md",
+      "targetPath": ".github/ISSUE_TEMPLATE/bug_report.md"
+    },
+    {
+      "sourceRoot": "../../shared",
+      "sourcePath": "text/_github-issue_template_config.yml",
+      "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/_vscode-extensions.json",
+      "targetPath": ".vscode/extensions.json"
+    },
+    {
+      "sourcePath": "text/_codecaprc.json",
+      "targetPath": ".codecaprc.json"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/_editorconfig",
+      "targetPath": ".editorconfig"
+    },
+    {
+      "sourcePath": "text/_eslintrc.json",
+      "targetPath": ".eslintrc.json"
+    },
+    {
+      "sourcePath": "text/_gitattributes",
+      "targetPath": ".gitattributes"
+    },
+    {
+      "sourcePath": "text/_gitignore",
+      "targetPath": ".gitignore"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/_prettierrc.json",
+      "targetPath": ".prettierrc.json"
+    },
+    {
+      "sourcePath": "text/_vscode-settings.json",
+      "targetPath": ".vscode/settings.json"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/codecap-general-header.txt",
+      "targetPath": "codecap/general-header.txt"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/globals.css",
+      "targetPath": "src/app/globals.css"
+    },
+    {
+      "sourcePath": "text/codecap-next-config-header.txt",
+      "targetPath": "codecap/next-config-header.txt"
+    },
+    {
+      "sourcePath": "text/next.config.mjs",
+      "targetPath": "next.config.mjs"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/codecap-postcss-config-header.txt",
+      "targetPath": "codecap/postcss-config-header.txt"
+    },
+    {
+      "sourcePath": "text/postcss.config.mjs",
+      "targetPath": "postcss.config.mjs"
+    },
+    {
+      "sourcePath": "text/tailwind.config.ts",
+      "targetPath": "tailwind.config.ts"
+    },
+    {
+      "sourcePath": "text/tsconfig.json",
+      "targetPath": "tsconfig.json"
+    },
+    {
+      "sourcePath": "text/layout.tsx",
+      "targetPath": "src/app/layout.tsx"
+    }
+  ]
 }

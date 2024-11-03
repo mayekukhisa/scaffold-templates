@@ -4,11 +4,11 @@ This repository contains a collection of pre-configured project templates for [S
 
 ## Available Templates
 
--  **blank**: Launch your project with a clean, minimalist foundation.
--  **android**: Kickstart your Android development with Kotlin and Jetpack Compose.
--  **cli**: Create powerful command-line interfaces with Kotlin.
--  **next**: Develop scalable web apps with Next.js, TypeScript, and Tailwind CSS.
--  **wxt**: Build dynamic web extensions with React, TypeScript, and Tailwind CSS.
+- **blank**: Launch your project with a clean, minimalist foundation.
+- **android**: Kickstart your Android development with Kotlin and Jetpack Compose.
+- **cli**: Create powerful command-line interfaces with Kotlin.
+- **next**: Develop scalable web apps with Next.js, TypeScript, and Tailwind CSS.
+- **wxt**: Build dynamic web extensions with React, TypeScript, and Tailwind CSS.
 
 ## Installation
 
