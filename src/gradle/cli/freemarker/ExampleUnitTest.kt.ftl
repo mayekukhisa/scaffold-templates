@@ -10,8 +10,8 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class ExampleUnitTest {
-   @Test
-   fun `addition is correct`() {
-      assertEquals(4, 2 + 2)
-   }
+  @Test
+  fun `addition is correct`() {
+    assertEquals(4, 2 + 2)
+  }
 }

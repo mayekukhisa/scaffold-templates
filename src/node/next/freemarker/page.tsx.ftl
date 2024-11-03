@@ -5,9 +5,9 @@
  ~ LICENSE file included in the root of this source tree.
  -->
 export default function Home() {
-   return (
-      <main className="grid h-svh place-items-center">
-         <p className="p-4 text-3xl font-medium">${projectName}</p>
-      </main>
-   )
+  return (
+    <main className="grid h-svh place-items-center">
+      <p className="p-4 text-3xl font-medium">${projectName}</p>
+    </main>
+  )
 }

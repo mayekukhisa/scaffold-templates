@@ -25,34 +25,34 @@ import androidx.compose.ui.unit.dp
 import ${packageName}.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
-   override fun onCreate(savedInstanceState: Bundle?) {
-      super.onCreate(savedInstanceState)
-      enableEdgeToEdge()
-      setContent {
-         AppTheme {
-            MainScreen()
-         }
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    enableEdgeToEdge()
+    setContent {
+      AppTheme {
+        MainScreen()
       }
-   }
+    }
+  }
 }
 
 @Composable
 fun MainScreen() {
-   Surface(modifier = Modifier.fillMaxSize()) {
-      Text(
-         text = stringResource(R.string.app_name),
-         modifier = Modifier
-            .padding(16.dp)
-            .wrapContentSize(Alignment.Center),
-         style = MaterialTheme.typography.headlineMedium,
-      )
-   }
+  Surface(modifier = Modifier.fillMaxSize()) {
+    Text(
+      text = stringResource(R.string.app_name),
+      modifier = Modifier
+        .padding(16.dp)
+        .wrapContentSize(Alignment.Center),
+      style = MaterialTheme.typography.headlineMedium,
+    )
+  }
 }
 
 @Preview(showBackground = true)
 @Composable
 private fun MainScreenPreview() {
-   AppTheme {
-      MainScreen()
-   }
+  AppTheme {
+    MainScreen()
+  }
 }

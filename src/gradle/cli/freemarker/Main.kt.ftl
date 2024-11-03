@@ -7,5 +7,5 @@
 package ${packageName}
 
 fun main() {
-   println(App().name)
+  println(App().name)
 }

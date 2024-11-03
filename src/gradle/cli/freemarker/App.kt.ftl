@@ -7,8 +7,8 @@
 package ${packageName}
 
 class App {
-   val name: String
-      get() {
-         return "${projectName}"
-      }
+  val name: String
+    get() {
+      return "${projectName}"
+    }
 }

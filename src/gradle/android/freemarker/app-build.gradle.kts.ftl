@@ -5,73 +5,73 @@
  ~ LICENSE file included in the root of this source tree.
  -->
 plugins {
-   alias(libs.plugins.android.application)
-   alias(libs.plugins.kotlin.android)
+  alias(libs.plugins.android.application)
+  alias(libs.plugins.kotlin.android)
 }
 
 kotlin {
-   jvmToolchain(17)
+  jvmToolchain(17)
 }
 
 android {
-   namespace = "${packageName}"
-   compileSdk = 34
+  namespace = "${packageName}"
+  compileSdk = 34
 
-   defaultConfig {
-      applicationId = namespace
-      minSdk = 26
-      targetSdk = compileSdk
-      versionCode = 1
-      versionName = "0.1.0"
+  defaultConfig {
+    applicationId = namespace
+    minSdk = 26
+    targetSdk = compileSdk
+    versionCode = 1
+    versionName = "0.1.0"
 
-      testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-      vectorDrawables {
-         useSupportLibrary = true
-      }
-   }
+    vectorDrawables {
+      useSupportLibrary = true
+    }
+  }
 
-   buildTypes {
-      release {
-         isMinifyEnabled = true
-         proguardFiles(
-            getDefaultProguardFile("proguard-android-optimize.txt"),
-            "proguard-rules.pro",
-         )
-      }
-   }
+  buildTypes {
+    release {
+      isMinifyEnabled = true
+      proguardFiles(
+        getDefaultProguardFile("proguard-android-optimize.txt"),
+        "proguard-rules.pro",
+      )
+    }
+  }
 
-   buildFeatures {
-      compose = true
-   }
+  buildFeatures {
+    compose = true
+  }
 
-   composeOptions {
-      kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
-   }
+  composeOptions {
+    kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
+  }
 
-   packaging {
-      resources {
-         excludes += "/META-INF/{AL2.0,LGPL2.1}"
-      }
-   }
+  packaging {
+    resources {
+      excludes += "/META-INF/{AL2.0,LGPL2.1}"
+    }
+  }
 }
 
 dependencies {
-   implementation(platform(libs.androidx.compose.bom))
-   implementation(libs.androidx.activity.compose)
-   implementation(libs.androidx.core.ktx)
-   implementation(libs.androidx.lifecycle.runtime.ktx)
-   implementation(libs.androidx.material3)
-   implementation(libs.androidx.ui)
-   implementation(libs.androidx.ui.tooling.preview)
+  implementation(platform(libs.androidx.compose.bom))
+  implementation(libs.androidx.activity.compose)
+  implementation(libs.androidx.core.ktx)
+  implementation(libs.androidx.lifecycle.runtime.ktx)
+  implementation(libs.androidx.material3)
+  implementation(libs.androidx.ui)
+  implementation(libs.androidx.ui.tooling.preview)
 
-   debugImplementation(libs.androidx.ui.test.manifest)
-   debugImplementation(libs.androidx.ui.tooling)
+  debugImplementation(libs.androidx.ui.test.manifest)
+  debugImplementation(libs.androidx.ui.tooling)
 
-   testImplementation(libs.junit)
+  testImplementation(libs.junit)
 
-   androidTestImplementation(platform(libs.androidx.compose.bom))
-   androidTestImplementation(libs.androidx.espresso.core)
-   androidTestImplementation(libs.androidx.junit.ktx)
-   androidTestImplementation(libs.androidx.ui.test.junit4)
+  androidTestImplementation(platform(libs.androidx.compose.bom))
+  androidTestImplementation(libs.androidx.espresso.core)
+  androidTestImplementation(libs.androidx.junit.ktx)
+  androidTestImplementation(libs.androidx.ui.test.junit4)
 }

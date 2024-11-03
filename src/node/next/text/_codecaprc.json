@@ -1,20 +1,20 @@
 {
-   "useYearRange": true,
-   "ruleSet": [
-      {
-         "target": "**/*.{css,ts,tsx}",
-         "headerFile": "codecap/general-header.txt",
-         "headerDelimiter": "^(?![\\/ ]\\*)."
-      },
-      {
-         "target": "next.config.mjs",
-         "headerFile": "codecap/next-config-header.txt",
-         "headerDelimiter": "^(?![\\/ ]\\*)."
-      },
-      {
-         "target": "postcss.config.mjs",
-         "headerFile": "codecap/postcss-config-header.txt",
-         "headerDelimiter": "^(?![\\/ ]\\*)."
-      }
-   ]
+  "useYearRange": true,
+  "ruleSet": [
+    {
+      "target": "**/*.{css,ts,tsx}",
+      "headerFile": "codecap/general-header.txt",
+      "headerDelimiter": "^(?![\\/ ]\\*)."
+    },
+    {
+      "target": "next.config.mjs",
+      "headerFile": "codecap/next-config-header.txt",
+      "headerDelimiter": "^(?![\\/ ]\\*)."
+    },
+    {
+      "target": "postcss.config.mjs",
+      "headerFile": "codecap/postcss-config-header.txt",
+      "headerDelimiter": "^(?![\\/ ]\\*)."
+    }
+  ]
 }

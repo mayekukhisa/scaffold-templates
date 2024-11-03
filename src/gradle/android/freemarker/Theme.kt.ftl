@@ -17,44 +17,44 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val darkColorScheme = darkColorScheme(
-   primary = purple80,
-   secondary = purpleGrey80,
-   tertiary = pink80,
+  primary = purple80,
+  secondary = purpleGrey80,
+  tertiary = pink80,
 )
 
 private val lightColorScheme = lightColorScheme(
-   primary = purple40,
-   secondary = purpleGrey40,
-   tertiary = pink40,
-   /*
-    Other default colors to override:
+  primary = purple40,
+  secondary = purpleGrey40,
+  tertiary = pink40,
+  /*
+   Other default colors to override:
 
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+   background = Color(0xFFFFFBFE),
+   surface = Color(0xFFFFFBFE),
+   onPrimary = Color.White,
+   onSecondary = Color.White,
+   onTertiary = Color.White,
+   onBackground = Color(0xFF1C1B1F),
+   onSurface = Color(0xFF1C1B1F),
+   */
 )
 
 @Composable
 fun AppTheme(
-   isDarkTheme: Boolean = isSystemInDarkTheme(),
-   // Dynamic color is available on Android 12+
-   isDynamicColor: Boolean = true,
-   content: @Composable () -> Unit,
+  isDarkTheme: Boolean = isSystemInDarkTheme(),
+  // Dynamic color is available on Android 12+
+  isDynamicColor: Boolean = true,
+  content: @Composable () -> Unit,
 ) {
-   val colorScheme = when {
-      isDynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-         val context = LocalContext.current
-         if (isDarkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-      }
+  val colorScheme = when {
+    isDynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
+      val context = LocalContext.current
+      if (isDarkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
+    }
 
-      isDarkTheme -> darkColorScheme
-      else -> lightColorScheme
-   }
+    isDarkTheme -> darkColorScheme
+    else -> lightColorScheme
+  }
 
-   MaterialTheme(colorScheme = colorScheme, typography = typography, content = content)
+  MaterialTheme(colorScheme = colorScheme, typography = typography, content = content)
 }

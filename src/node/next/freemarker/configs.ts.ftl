@@ -5,6 +5,6 @@
  ~ LICENSE file included in the root of this source tree.
  -->
 export const appConfig = {
-   name: "${projectName}",
-   description: "${projectName} description",
+  name: "${projectName}",
+  description: "${projectName} description",
 }
