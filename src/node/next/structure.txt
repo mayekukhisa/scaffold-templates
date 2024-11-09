@@ -1,6 +1,5 @@
 644 ./.codecaprc.json
 644 ./.editorconfig
-644 ./.eslintrc.json
 644 ./.gitattributes
 644 ./.github/ISSUE_TEMPLATE/bug_report.md
 644 ./.github/ISSUE_TEMPLATE/config.yml
@@ -9,9 +8,9 @@
 644 ./.vscode/extensions.json
 644 ./.vscode/settings.json
 644 ./codecap/general-header.txt
-644 ./codecap/next-config-header.txt
 644 ./codecap/postcss-config-header.txt
-644 ./next.config.mjs
+644 ./eslint.config.mjs
+644 ./next.config.ts
 644 ./package.json
 644 ./postcss.config.mjs
 644 ./src/app/favicon.ico

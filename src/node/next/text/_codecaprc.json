@@ -2,13 +2,8 @@
   "useYearRange": true,
   "ruleSet": [
     {
-      "target": "**/*.{css,ts,tsx}",
+      "target": ["**/*.{css,ts,tsx}", "eslint.config.mjs"],
       "headerFile": "codecap/general-header.txt",
-      "headerDelimiter": "^(?![\\/ ]\\*)."
-    },
-    {
-      "target": "next.config.mjs",
-      "headerFile": "codecap/next-config-header.txt",
       "headerDelimiter": "^(?![\\/ ]\\*)."
     },
     {

@@ -45,8 +45,8 @@
       "targetPath": ".editorconfig"
     },
     {
-      "sourcePath": "text/_eslintrc.json",
-      "targetPath": ".eslintrc.json"
+      "sourcePath": "text/eslint.config.mjs",
+      "targetPath": "eslint.config.mjs"
     },
     {
       "sourcePath": "text/_gitattributes",
@@ -76,12 +76,8 @@
       "targetPath": "src/app/globals.css"
     },
     {
-      "sourcePath": "text/codecap-next-config-header.txt",
-      "targetPath": "codecap/next-config-header.txt"
-    },
-    {
-      "sourcePath": "text/next.config.mjs",
-      "targetPath": "next.config.mjs"
+      "sourcePath": "text/next.config.ts",
+      "targetPath": "next.config.ts"
     },
     {
       "sourceRoot": "../shared",
