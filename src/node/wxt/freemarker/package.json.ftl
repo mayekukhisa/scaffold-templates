@@ -19,31 +19,34 @@
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
-    "check": "eslint --ext .ts,.tsx src/ && codecap --check && prettier --check \"**/*.{css,html,json,md,mjs,yml}\" tailwind.config.ts",
-    "fix": "eslint --ext .ts,.tsx src/ --fix && codecap --fix && prettier --write \"**/*.{css,html,json,md,mjs,yml}\" tailwind.config.ts"
+    "check": "eslint src/ && codecap --check && prettier --check \"**/*.{css,html,json,md,yml}\" \"*.{mjs,ts}\"",
+    "fix": "eslint src/ --fix && codecap --fix && prettier --write \"**/*.{css,html,json,md,yml}\" \"*.{mjs,ts}\""
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.3.8",
-    "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^8.6.0",
-    "@typescript-eslint/parser": "^8.6.0",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.14.0",
+    "@types/chrome": "^0.0.280",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
     "@wxt-dev/module-react": "^1.1.1",
     "autoprefixer": "^10.4.20",
     "codecap": "^0.3.1",
-    "eslint": "^8.57.1",
+    "eslint": "^9.14.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-tailwindcss": "^3.17.4",
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.6",
-    "tailwindcss": "^3.4.12",
-    "typescript": "^5.6.2",
-    "wxt": "^0.19.10"
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "wxt": "^0.19.13"
   }
 }

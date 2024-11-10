@@ -86,8 +86,8 @@
       "targetPath": ".codecaprc.json"
     },
     {
-      "sourcePath": "text/_eslintrc.json",
-      "targetPath": ".eslintrc.json"
+      "sourcePath": "text/eslint.config.mjs",
+      "targetPath": "eslint.config.mjs"
     },
     {
       "sourcePath": "text/_gitattributes",

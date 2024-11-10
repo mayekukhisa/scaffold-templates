@@ -15,6 +15,6 @@
   </head>
   <body class="w-80 font-sans">
     <div id="__wxt"></div>
-    <script type="module" src="./main.tsx"></script>
+    <script type="module" src="main.tsx"></script>
   </body>
 </html>
