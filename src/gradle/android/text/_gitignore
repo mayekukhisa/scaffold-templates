@@ -7,6 +7,9 @@
 .gradle/
 build/
 
+# Kotlin
+.kotlin/
+
 # Misc
 .DS_Store
 local.properties

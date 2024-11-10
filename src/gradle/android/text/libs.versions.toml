@@ -1,14 +1,13 @@
 [versions]
-activity-compose = "1.9.2"
-agp = "8.6.1"
-compose-bom = "2024.09.02"
-compose-compiler = "1.5.15"
-core-ktx = "1.13.1"
+activity-compose = "1.9.3"
+agp = "8.7.2"
+compose-bom = "2024.10.01"
+core-ktx = "1.15.0"
 espresso-core = "3.6.1"
 junit = "4.13.2"
 junit-ktx = "1.2.1"
-kotlin = "1.9.25"
-lifecycle-runtime-ktx = "2.8.6"
+kotlin = "2.0.21"
+lifecycle-runtime-ktx = "2.8.7"
 spotless = "6.25.0"
 
 [libraries]
@@ -30,3 +29,4 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 diffplug-spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

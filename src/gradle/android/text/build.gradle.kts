@@ -3,6 +3,7 @@ import com.diffplug.spotless.extra.wtp.EclipseWtpFormatterStep
 plugins {
   alias(libs.plugins.android.application) apply false
   alias(libs.plugins.kotlin.android) apply false
+  alias(libs.plugins.kotlin.compose) apply false
   alias(libs.plugins.diffplug.spotless)
 }
 
