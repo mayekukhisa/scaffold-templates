@@ -25,6 +25,10 @@
       "targetPath": ".gitignore"
     },
     {
+      "sourcePath": "text/_vscode-extensions.json",
+      "targetPath": ".vscode/extensions.json"
+    },
+    {
       "sourcePath": "text/_vscode-settings.json",
       "targetPath": ".vscode/settings.json"
     }
