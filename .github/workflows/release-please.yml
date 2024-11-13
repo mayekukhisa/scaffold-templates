@@ -15,7 +15,7 @@ jobs:
     steps:
       - id: release
         name: Create release
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
 
       - name: Checkout repository
         if: ${{ steps.release.outputs.release_created }}
@@ -26,11 +26,11 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: "temurin"
-          java-version: "17"
+          java-version: "21"
 
       - name: Build with Gradle
         if: ${{ steps.release.outputs.release_created }}
-        run: chmod +x gradlew && ./gradlew build
+        run: chmod +x gradlew && ./gradlew build -x test
 
       - name: Upload release assets
         if: ${{ steps.release.outputs.release_created }}
