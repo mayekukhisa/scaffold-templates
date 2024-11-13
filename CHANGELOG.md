@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0](https://github.com/mayekukhisa/scaffold-template-collection/compare/v0.2.0...v0.3.0) (2024-11-13)
+
+
+### Features
+
+* standardize indentation to 2 spaces across all templates ([791be54](https://github.com/mayekukhisa/scaffold-template-collection/commit/791be542c4f498ee187cfaa9590b143915de2251))
+* update `android` template to Compose BOM 2024.10.01 ([00b6eb4](https://github.com/mayekukhisa/scaffold-template-collection/commit/00b6eb432323409df89899c84090a9b823cf536c))
+* update `blank` template ([c18f813](https://github.com/mayekukhisa/scaffold-template-collection/commit/c18f813c495bbdf4f83896bad31fd9a75fbb420a))
+* update `cli` template to Kotlin 2.0.21 ([6a8798a](https://github.com/mayekukhisa/scaffold-template-collection/commit/6a8798aae7db326d7937a57fd67a8e8ae6ff7f83))
+* update `next` template to Next.js ^15.0.3 ([c3f2446](https://github.com/mayekukhisa/scaffold-template-collection/commit/c3f2446f329af694c7a1a353c097de4d26c54ef9))
+* update `wxt` template to WXT ^0.19.13 ([44ed769](https://github.com/mayekukhisa/scaffold-template-collection/commit/44ed769ef4fcd5ef3dda05c0c732c0f0602ce8cb))
+* update Gradle templates to wrapper version 8.10.2 ([73664af](https://github.com/mayekukhisa/scaffold-template-collection/commit/73664af42279242644f48048e25f5724e1982d0a))
+
 ## [0.2.0](https://github.com/mayekukhisa/scaffold-template-collection/compare/v0.1.0...v0.2.0) (2024-09-22)
 
 
