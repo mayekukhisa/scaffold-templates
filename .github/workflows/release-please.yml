@@ -30,7 +30,7 @@ jobs:
 
       - name: Build with Gradle
         if: ${{ steps.release.outputs.release_created }}
-        run: chmod +x gradlew && ./gradlew build -x test
+        run: chmod +x gradlew && ./gradlew build -x test -x spotlessShell
 
       - name: Upload release assets
         if: ${{ steps.release.outputs.release_created }}
