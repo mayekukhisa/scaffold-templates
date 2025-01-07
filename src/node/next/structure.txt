@@ -9,6 +9,7 @@
 644 ./.vscode/settings.json
 644 ./codecap/general-header.txt
 644 ./codecap/postcss-config-header.txt
+644 ./components.json
 644 ./eslint.config.mjs
 644 ./next.config.ts
 644 ./package.json
@@ -17,6 +18,11 @@
 644 ./src/app/globals.css
 644 ./src/app/layout.tsx
 644 ./src/app/page.tsx
+644 ./src/components/theme-toggle.tsx
+644 ./src/components/ui/button.tsx
+644 ./src/components/ui/dropdown-menu.tsx
+644 ./src/contexts/theme.tsx
 644 ./src/lib/configs.ts
+644 ./src/lib/utils.ts
 644 ./tailwind.config.ts
 644 ./tsconfig.json

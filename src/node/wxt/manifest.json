@@ -77,7 +77,6 @@
       "targetPath": "codecap/postcss-config-header.txt"
     },
     {
-      "sourceRoot": "../shared",
       "sourcePath": "text/globals.css",
       "targetPath": "src/assets/globals.css"
     },

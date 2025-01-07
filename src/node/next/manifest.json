@@ -1,22 +1,22 @@
 {
   "binaryFiles": [
     {
-      "sourcePath": "binary/favicon.ico",
+      "sourcePath": "binary/app-favicon.ico",
       "targetPath": "src/app/favicon.ico"
     }
   ],
   "freemarkerFiles": [
     {
-      "sourcePath": "freemarker/configs.ts.ftl",
+      "sourcePath": "freemarker/app-page.tsx.ftl",
+      "targetPath": "src/app/page.tsx"
+    },
+    {
+      "sourcePath": "freemarker/lib-configs.ts.ftl",
       "targetPath": "src/lib/configs.ts"
     },
     {
       "sourcePath": "freemarker/package.json.ftl",
       "targetPath": "package.json"
-    },
-    {
-      "sourcePath": "freemarker/page.tsx.ftl",
-      "targetPath": "src/app/page.tsx"
     }
   ],
   "textFiles": [
@@ -32,21 +32,32 @@
     },
     {
       "sourceRoot": "../shared",
-      "sourcePath": "text/_vscode-extensions.json",
-      "targetPath": ".vscode/extensions.json"
-    },
-    {
-      "sourcePath": "text/_codecaprc.json",
-      "targetPath": ".codecaprc.json"
-    },
-    {
-      "sourceRoot": "../shared",
       "sourcePath": "text/_editorconfig",
       "targetPath": ".editorconfig"
     },
     {
-      "sourcePath": "text/eslint.config.mjs",
-      "targetPath": "eslint.config.mjs"
+      "sourceRoot": "../shared",
+      "sourcePath": "text/_prettierrc.json",
+      "targetPath": ".prettierrc.json"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/_vscode-extensions.json",
+      "targetPath": ".vscode/extensions.json"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/codecap-general-header.txt",
+      "targetPath": "codecap/general-header.txt"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/codecap-postcss-config-header.txt",
+      "targetPath": "codecap/postcss-config-header.txt"
+    },
+    {
+      "sourcePath": "text/_codecaprc.json",
+      "targetPath": ".codecaprc.json"
     },
     {
       "sourcePath": "text/_gitattributes",
@@ -57,32 +68,40 @@
       "targetPath": ".gitignore"
     },
     {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_prettierrc.json",
-      "targetPath": ".prettierrc.json"
-    },
-    {
       "sourcePath": "text/_vscode-settings.json",
       "targetPath": ".vscode/settings.json"
     },
     {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/codecap-general-header.txt",
-      "targetPath": "codecap/general-header.txt"
+      "sourcePath": "text/app-globals.css",
+      "targetPath": "src/app/globals.css"
     },
     {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/globals.css",
-      "targetPath": "src/app/globals.css"
+      "sourcePath": "text/app-layout.tsx",
+      "targetPath": "src/app/layout.tsx"
+    },
+    {
+      "sourcePath": "text/components-theme-toggle.tsx",
+      "targetPath": "src/components/theme-toggle.tsx"
+    },
+    {
+      "sourcePath": "text/components.json",
+      "targetPath": "components.json"
+    },
+    {
+      "sourcePath": "text/contexts-theme.tsx",
+      "targetPath": "src/contexts/theme.tsx"
+    },
+    {
+      "sourcePath": "text/eslint.config.mjs",
+      "targetPath": "eslint.config.mjs"
+    },
+    {
+      "sourcePath": "text/lib-utils.ts",
+      "targetPath": "src/lib/utils.ts"
     },
     {
       "sourcePath": "text/next.config.ts",
       "targetPath": "next.config.ts"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/codecap-postcss-config-header.txt",
-      "targetPath": "codecap/postcss-config-header.txt"
     },
     {
       "sourcePath": "text/postcss.config.mjs",
@@ -97,8 +116,12 @@
       "targetPath": "tsconfig.json"
     },
     {
-      "sourcePath": "text/layout.tsx",
-      "targetPath": "src/app/layout.tsx"
+      "sourcePath": "text/ui-button.tsx",
+      "targetPath": "src/components/ui/button.tsx"
+    },
+    {
+      "sourcePath": "text/ui-dropdown-menu.tsx",
+      "targetPath": "src/components/ui/dropdown-menu.tsx"
     }
   ]
 }
