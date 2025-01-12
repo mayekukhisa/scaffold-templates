@@ -12,9 +12,8 @@
 644 ./gradle/wrapper/gradle-wrapper.properties
 644 ./gradlew.bat
 644 ./settings.gradle.kts
-644 ./spotless/configs/prettierrc.json
-644 ./spotless/headers/kotlin.txt
-644 ./src/main/kotlin/com/example/App.kt
-644 ./src/main/kotlin/com/example/Main.kt
-644 ./src/test/kotlin/com/example/ExampleUnitTest.kt
+644 ./spotless/kotlin-header.txt
+644 ./spotless/prettier-config.json
+644 ./src/main/kotlin/Main.kt
+644 ./src/test/kotlin/ExampleUnitTest.kt
 755 ./gradlew

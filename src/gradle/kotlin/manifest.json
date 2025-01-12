@@ -8,20 +8,16 @@
   ],
   "freemarkerFiles": [
     {
-      "sourcePath": "freemarker/App.kt.ftl",
-      "targetPath": "src/main/kotlin/${packageName?replace('.', '/')}/App.kt"
-    },
-    {
       "sourcePath": "freemarker/build.gradle.kts.ftl",
       "targetPath": "build.gradle.kts"
     },
     {
       "sourcePath": "freemarker/ExampleUnitTest.kt.ftl",
-      "targetPath": "src/test/kotlin/${packageName?replace('.', '/')}/ExampleUnitTest.kt"
+      "targetPath": "src/test/kotlin/ExampleUnitTest.kt"
     },
     {
       "sourcePath": "freemarker/Main.kt.ftl",
-      "targetPath": "src/main/kotlin/${packageName?replace('.', '/')}/Main.kt"
+      "targetPath": "src/main/kotlin/Main.kt"
     },
     {
       "sourcePath": "freemarker/settings.gradle.kts.ftl",
@@ -66,12 +62,12 @@
     {
       "sourceRoot": "../shared",
       "sourcePath": "text/spotless-kotlin-header.txt",
-      "targetPath": "spotless/headers/kotlin.txt"
+      "targetPath": "spotless/kotlin-header.txt"
     },
     {
       "sourceRoot": "../shared",
       "sourcePath": "text/spotless-prettier-config.json",
-      "targetPath": "spotless/configs/prettierrc.json"
+      "targetPath": "spotless/prettier-config.json"
     },
     {
       "sourcePath": "text/_editorconfig",

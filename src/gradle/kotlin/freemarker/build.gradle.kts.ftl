@@ -10,12 +10,33 @@ plugins {
   alias(libs.plugins.diffplug.spotless)
 }
 
+group = "${packageName}"
+version = "0.1.0"
+
+application {
+  mainClass.set("${r"${"}project.group}.MainKt")
+}
+
 kotlin {
   jvmToolchain(21)
 }
 
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testImplementation(libs.kotlin.test)
+}
+
+tasks {
+  named<Test>("test") {
+    useJUnitPlatform()
+  }
+}
+
 spotless {
-  with(rootProject.file("spotless/headers/kotlin.txt")) {
+  with(rootProject.file("spotless/kotlin-header.txt")) {
     kotlin {
       target("**/*.kt")
       targetExclude("**/build/**/*.kt")
@@ -31,7 +52,7 @@ spotless {
     }
   }
 
-  with(rootProject.file("spotless/configs/prettierrc.json")) {
+  with(rootProject.file("spotless/prettier-config.json")) {
     json {
       target("**/*.json")
       targetExclude("**/build/**/*.json")
@@ -49,26 +70,5 @@ spotless {
       targetExclude("**/build/**/*.yml")
       prettier().configFile(this@with)
     }
-  }
-}
-
-repositories {
-  mavenCentral()
-}
-
-dependencies {
-  testImplementation(libs.kotlin.test)
-}
-
-group = "${packageName}"
-version = "0.1.0"
-
-application {
-  mainClass.set("${r"${"}project.group}.MainKt")
-}
-
-tasks {
-  named<Test>("test") {
-    useJUnitPlatform()
   }
 }
