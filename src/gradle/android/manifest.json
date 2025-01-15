@@ -53,19 +53,19 @@
     },
     {
       "sourcePath": "freemarker/Color.kt.ftl",
-      "targetPath": "app/src/main/kotlin/${packageName?replace('.', '/')}/ui/theme/Color.kt"
+      "targetPath": "app/src/main/kotlin/ui/theme/Color.kt"
     },
     {
       "sourcePath": "freemarker/ExampleInstrumentedTest.kt.ftl",
-      "targetPath": "app/src/androidTest/kotlin/${packageName?replace('.', '/')}/ExampleInstrumentedTest.kt"
+      "targetPath": "app/src/androidTest/kotlin/ExampleInstrumentedTest.kt"
     },
     {
       "sourcePath": "freemarker/ExampleUnitTest.kt.ftl",
-      "targetPath": "app/src/test/kotlin/${packageName?replace('.', '/')}/ExampleUnitTest.kt"
+      "targetPath": "app/src/test/kotlin/ExampleUnitTest.kt"
     },
     {
       "sourcePath": "freemarker/MainActivity.kt.ftl",
-      "targetPath": "app/src/main/kotlin/${packageName?replace('.', '/')}/MainActivity.kt"
+      "targetPath": "app/src/main/kotlin/MainActivity.kt"
     },
     {
       "sourcePath": "freemarker/settings.gradle.kts.ftl",
@@ -77,11 +77,11 @@
     },
     {
       "sourcePath": "freemarker/Theme.kt.ftl",
-      "targetPath": "app/src/main/kotlin/${packageName?replace('.', '/')}/ui/theme/Theme.kt"
+      "targetPath": "app/src/main/kotlin/ui/theme/Theme.kt"
     },
     {
       "sourcePath": "freemarker/Type.kt.ftl",
-      "targetPath": "app/src/main/kotlin/${packageName?replace('.', '/')}/ui/theme/Type.kt"
+      "targetPath": "app/src/main/kotlin/ui/theme/Type.kt"
     }
   ],
   "textFiles": [
@@ -122,12 +122,12 @@
     {
       "sourceRoot": "../shared",
       "sourcePath": "text/spotless-kotlin-header.txt",
-      "targetPath": "spotless/headers/kotlin.txt"
+      "targetPath": "spotless/kotlin-header.txt"
     },
     {
       "sourceRoot": "../shared",
       "sourcePath": "text/spotless-prettier-config.json",
-      "targetPath": "spotless/configs/prettierrc.json"
+      "targetPath": "spotless/prettier-config.json"
     },
     {
       "sourcePath": "text/_editorconfig",
@@ -163,11 +163,11 @@
     },
     {
       "sourcePath": "text/ic_launcher_round.xml",
-      "targetPath": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+      "targetPath": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
       "sourcePath": "text/ic_launcher.xml",
-      "targetPath": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+      "targetPath": "app/src/main/res/mipmap-anydpi/ic_launcher.xml"
     },
     {
       "sourcePath": "text/libs.versions.toml",
@@ -183,11 +183,11 @@
     },
     {
       "sourcePath": "text/spotless-xml-header.txt",
-      "targetPath": "spotless/headers/xml.txt"
+      "targetPath": "spotless/xml-header.txt"
     },
     {
       "sourcePath": "text/spotless-xml-config.prefs",
-      "targetPath": "spotless/configs/xml.prefs"
+      "targetPath": "spotless/xml-config.prefs"
     },
     {
       "sourcePath": "text/themes.xml",

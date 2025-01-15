@@ -1,14 +1,14 @@
 [versions]
 activity-compose = "1.9.3"
-agp = "8.7.2"
-compose-bom = "2024.10.01"
+agp = "8.8.0"
+compose-bom = "2024.12.01"
 core-ktx = "1.15.0"
 espresso-core = "3.6.1"
 junit = "4.13.2"
 junit-ktx = "1.2.1"
-kotlin = "2.0.21"
+kotlin = "2.1.0"
 lifecycle-runtime-ktx = "2.8.7"
-spotless = "6.25.0"
+spotless = "7.0.1"
 
 [libraries]
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
