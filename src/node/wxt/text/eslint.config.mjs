@@ -35,6 +35,12 @@ export default [
       parser: tsParser,
     },
     rules: {
+      "no-restricted-imports": [
+        "error",
+        {
+          patterns: ["./*", "../*"],
+        },
+      ],
       "simple-import-sort/exports": "error",
       "simple-import-sort/imports": "error",
     },

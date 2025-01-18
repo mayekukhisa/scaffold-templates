@@ -47,6 +47,11 @@
     },
     {
       "sourceRoot": "../shared",
+      "sourcePath": "text/_vscode-settings.json",
+      "targetPath": ".vscode/settings.json"
+    },
+    {
+      "sourceRoot": "../shared",
       "sourcePath": "text/codecap-general-header.txt",
       "targetPath": "codecap/general-header.txt"
     },
@@ -54,6 +59,21 @@
       "sourceRoot": "../shared",
       "sourcePath": "text/codecap-postcss-config-header.txt",
       "targetPath": "codecap/postcss-config-header.txt"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/globals.css",
+      "targetPath": "src/app/globals.css"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/lib-utils.ts",
+      "targetPath": "src/lib/utils.ts"
+    },
+    {
+      "sourceRoot": "../shared",
+      "sourcePath": "text/ui-button.tsx",
+      "targetPath": "src/components/ui/button.tsx"
     },
     {
       "sourcePath": "text/_codecaprc.json",
@@ -66,14 +86,6 @@
     {
       "sourcePath": "text/_gitignore",
       "targetPath": ".gitignore"
-    },
-    {
-      "sourcePath": "text/_vscode-settings.json",
-      "targetPath": ".vscode/settings.json"
-    },
-    {
-      "sourcePath": "text/app-globals.css",
-      "targetPath": "src/app/globals.css"
     },
     {
       "sourcePath": "text/app-layout.tsx",
@@ -96,10 +108,6 @@
       "targetPath": "eslint.config.mjs"
     },
     {
-      "sourcePath": "text/lib-utils.ts",
-      "targetPath": "src/lib/utils.ts"
-    },
-    {
       "sourcePath": "text/next.config.ts",
       "targetPath": "next.config.ts"
     },
@@ -114,10 +122,6 @@
     {
       "sourcePath": "text/tsconfig.json",
       "targetPath": "tsconfig.json"
-    },
-    {
-      "sourcePath": "text/ui-button.tsx",
-      "targetPath": "src/components/ui/button.tsx"
     },
     {
       "sourcePath": "text/ui-dropdown-menu.tsx",
