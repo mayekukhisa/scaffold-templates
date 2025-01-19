@@ -69,7 +69,7 @@ spotless {
 
   shell {
     target("scripts/**/*.sh")
-    shfmt("v3.10.0")
+    shfmt("3.10.0")
     licenseHeaderFile(rootProject.file("spotless/shell-header.txt"), "^(?!#!|#).")
   }
 }

@@ -1,5 +1,5 @@
 [versions]
-spotless = "6.25.0"
+spotless = "7.0.1"
 
 [plugins]
 diffplug-spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
