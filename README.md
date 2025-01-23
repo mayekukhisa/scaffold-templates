@@ -1,14 +1,18 @@
 # Scaffold Template Collection
 
-This repository contains a collection of pre-configured project templates for [Scaffold][1].
+This repository offers a collection of starter templates for [Scaffold][1], providing a basic foundation for a variety of projects.
 
 ## Available Templates
 
-- **blank**: Launch your project with a clean, minimalist foundation.
+> [!NOTE]
+>
+> This collection is in early development and currently offers a limited selection of templates.
+
+- **blank**: Launch your project with a clean, bare-bones setup
 - **android**: Kickstart your Android development with Kotlin and Jetpack Compose.
-- **cli**: Create powerful command-line interfaces with Kotlin.
-- **next**: Develop scalable web apps with Next.js, TypeScript, and Tailwind CSS.
-- **wxt**: Build dynamic web extensions with React, TypeScript, and Tailwind CSS.
+- **kotlin**: Create powerful JVM applications with Kotlin.
+- **next**: Develop scalable web apps with Next.js, TypeScript, Tailwind CSS, and shadcn/ui.
+- **wxt**: Build dynamic web extensions with React, TypeScript, Tailwind CSS, and shadcn/ui.
 
 ## Installation
 
@@ -34,9 +38,9 @@ This repository contains a collection of pre-configured project templates for [S
 
 ## License
 
-This collection is available under the terms of the [MIT license][4].
+This repository is available under the terms of the [MIT license][4].
 
-&copy; 2024 Mayeku Khisa.
+&copy; 2024-2025 Mayeku Khisa.
 
 [1]: https://github.com/mayekukhisa/scaffold
 [2]: https://github.com/mayekukhisa/scaffold-template-collection/releases/latest
