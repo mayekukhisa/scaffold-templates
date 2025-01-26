@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.4.0](https://github.com/mayekukhisa/scaffold-template-collection/compare/v0.3.0...v0.4.0) (2025-01-26)
+
+
+### Features
+
+* update `android` template to Compose BOM 2024.12.01 ([ef79d9b](https://github.com/mayekukhisa/scaffold-template-collection/commit/ef79d9bd9870d310732846dda45cb004acc56959))
+* update `kotlin` template to Kotlin 2.1.0 ([5dfcb54](https://github.com/mayekukhisa/scaffold-template-collection/commit/5dfcb54dc661e27b446741d3a038c6de3b41c198))
+* update `next` template to Next.js ^15.1.3 ([ae1aec1](https://github.com/mayekukhisa/scaffold-template-collection/commit/ae1aec1e27e75ca565ef68574db27292d259e1c4))
+* update `wxt` template to WXT ^0.19.24 ([799e284](https://github.com/mayekukhisa/scaffold-template-collection/commit/799e2847e7719d54dde8a572a2ef010c36546a26))
+* update Gradle templates to wrapper version 8.12 ([8acafe3](https://github.com/mayekukhisa/scaffold-template-collection/commit/8acafe3940c9fb6cc5fb624133a4643d129c1309))
+
 ## [0.3.0](https://github.com/mayekukhisa/scaffold-template-collection/compare/v0.2.0...v0.3.0) (2024-11-13)
 
 
