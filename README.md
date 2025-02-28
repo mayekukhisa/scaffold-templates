@@ -43,6 +43,6 @@ This repository is available under the terms of the [MIT license][4].
 &copy; 2024-2025 Mayeku Khisa.
 
 [1]: https://github.com/mayekukhisa/scaffold
-[2]: https://github.com/mayekukhisa/scaffold-template-collection/releases/latest
+[2]: https://github.com/mayekukhisa/scaffold-templates/releases/latest
 [3]: https://github.com/mayekukhisa/scaffold#getting-started
 [4]: LICENSE

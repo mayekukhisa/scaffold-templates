@@ -4,4 +4,4 @@
  * Use of this source code is governed by a MIT license as appearing in the
  * LICENSE file included in the root of this source tree.
  */
-rootProject.name = "scaffold-template-collection"
+rootProject.name = "scaffold-templates"
