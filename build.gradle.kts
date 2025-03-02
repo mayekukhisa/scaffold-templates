@@ -71,6 +71,7 @@ spotless {
     target("scripts/**/*.sh")
     shfmt("3.10.0")
     licenseHeaderFile(rootProject.file("spotless/shell-header.txt"), "^(?!#!|#).")
+      .updateYearWithLatest(true)
   }
 }
 
