@@ -1,93 +1,23 @@
 {
-  "binaryFiles": [
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "binary/gradle-wrapper.jar",
-      "targetPath": "gradle/wrapper/gradle-wrapper.jar"
-    }
-  ],
-  "freemarkerFiles": [
-    {
-      "sourcePath": "freemarker/build.gradle.kts.ftl",
-      "targetPath": "build.gradle.kts"
-    },
-    {
-      "sourcePath": "freemarker/ExampleUnitTest.kt.ftl",
-      "targetPath": "src/test/kotlin/ExampleUnitTest.kt"
-    },
-    {
-      "sourcePath": "freemarker/Main.kt.ftl",
-      "targetPath": "src/main/kotlin/Main.kt"
-    },
-    {
-      "sourcePath": "freemarker/settings.gradle.kts.ftl",
-      "targetPath": "settings.gradle.kts"
-    }
-  ],
-  "textFiles": [
-    {
-      "sourceRoot": "../../shared",
-      "sourcePath": "text/_github-bug_report_template.md",
-      "targetPath": ".github/ISSUE_TEMPLATE/bug_report.md"
-    },
-    {
-      "sourceRoot": "../../shared",
-      "sourcePath": "text/_github-issue_template_config.yml",
-      "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
-    },
-    {
-      "sourcePath": "text/_vscode-extensions.json",
-      "targetPath": ".vscode/extensions.json"
-    },
-    {
-      "sourcePath": "text/_vscode-settings.json",
-      "targetPath": ".vscode/settings.json"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/gradle-wrapper.properties",
-      "targetPath": "gradle/wrapper/gradle-wrapper.properties"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/gradlew",
-      "targetPath": "gradlew",
-      "executable": true
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/gradlew.bat",
-      "targetPath": "gradlew.bat"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/spotless-kotlin-header.txt",
-      "targetPath": "spotless/kotlin-header.txt"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/spotless-prettier-config.json",
-      "targetPath": "spotless/prettier-config.json"
-    },
-    {
-      "sourcePath": "text/_editorconfig",
-      "targetPath": ".editorconfig"
-    },
-    {
-      "sourcePath": "text/_gitattributes",
-      "targetPath": ".gitattributes"
-    },
-    {
-      "sourcePath": "text/_gitignore",
-      "targetPath": ".gitignore"
-    },
-    {
-      "sourcePath": "text/gradle.properties",
-      "targetPath": "gradle.properties"
-    },
-    {
-      "sourcePath": "text/libs.versions.toml",
-      "targetPath": "gradle/libs.versions.toml"
-    }
+  "files": [
+    { "path": "_editorconfig" },
+    { "path": "_gitattributes" },
+    { "path": "_github/ISSUE_TEMPLATE/bug_report.md", "root": "../../shared" },
+    { "path": "_github/ISSUE_TEMPLATE/config.yml", "root": "../../shared" },
+    { "path": "_gitignore" },
+    { "path": "_vscode/extensions.json" },
+    { "path": "_vscode/settings.json" },
+    { "path": "build.gradle.kts.ftl" },
+    { "path": "gradle.properties" },
+    { "path": "gradle/libs.versions.toml" },
+    { "path": "gradle/wrapper/gradle-wrapper.jar", "root": "../shared" },
+    { "path": "gradle/wrapper/gradle-wrapper.properties", "root": "../shared" },
+    { "path": "gradlew", "root": "../shared", "executable": true },
+    { "path": "gradlew.bat", "root": "../shared" },
+    { "path": "settings.gradle.kts.ftl" },
+    { "path": "spotless/kotlin-header.txt", "root": "../shared" },
+    { "path": "spotless/prettier-config.json", "root": "../shared" },
+    { "path": "src/main/kotlin/Main.kt.ftl" },
+    { "path": "src/test/kotlin/ExampleUnitTest.kt.ftl" }
   ]
 }

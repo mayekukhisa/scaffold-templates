@@ -1,197 +1,49 @@
 {
-  "binaryFiles": [
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "binary/gradle-wrapper.jar",
-      "targetPath": "gradle/wrapper/gradle-wrapper.jar"
-    },
-    {
-      "sourcePath": "binary/hdpi-ic_launcher_round.webp",
-      "targetPath": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-      "sourcePath": "binary/hdpi-ic_launcher.webp",
-      "targetPath": "app/src/main/res/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-      "sourcePath": "binary/mdpi-ic_launcher_round.webp",
-      "targetPath": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-      "sourcePath": "binary/mdpi-ic_launcher.webp",
-      "targetPath": "app/src/main/res/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-      "sourcePath": "binary/xhdpi-ic_launcher_round.webp",
-      "targetPath": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-      "sourcePath": "binary/xhdpi-ic_launcher.webp",
-      "targetPath": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-      "sourcePath": "binary/xxhdpi-ic_launcher_round.webp",
-      "targetPath": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-      "sourcePath": "binary/xxhdpi-ic_launcher.webp",
-      "targetPath": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-      "sourcePath": "binary/xxxhdpi-ic_launcher_round.webp",
-      "targetPath": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-      "sourcePath": "binary/xxxhdpi-ic_launcher.webp",
-      "targetPath": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
-    }
-  ],
-  "freemarkerFiles": [
-    {
-      "sourcePath": "freemarker/app-build.gradle.kts.ftl",
-      "targetPath": "app/build.gradle.kts"
-    },
-    {
-      "sourcePath": "freemarker/Color.kt.ftl",
-      "targetPath": "app/src/main/kotlin/ui/theme/Color.kt"
-    },
-    {
-      "sourcePath": "freemarker/ExampleInstrumentedTest.kt.ftl",
-      "targetPath": "app/src/androidTest/kotlin/ExampleInstrumentedTest.kt"
-    },
-    {
-      "sourcePath": "freemarker/ExampleUnitTest.kt.ftl",
-      "targetPath": "app/src/test/kotlin/ExampleUnitTest.kt"
-    },
-    {
-      "sourcePath": "freemarker/MainActivity.kt.ftl",
-      "targetPath": "app/src/main/kotlin/MainActivity.kt"
-    },
-    {
-      "sourcePath": "freemarker/settings.gradle.kts.ftl",
-      "targetPath": "settings.gradle.kts"
-    },
-    {
-      "sourcePath": "freemarker/strings.xml.ftl",
-      "targetPath": "app/src/main/res/values/strings.xml"
-    },
-    {
-      "sourcePath": "freemarker/Theme.kt.ftl",
-      "targetPath": "app/src/main/kotlin/ui/theme/Theme.kt"
-    },
-    {
-      "sourcePath": "freemarker/Type.kt.ftl",
-      "targetPath": "app/src/main/kotlin/ui/theme/Type.kt"
-    }
-  ],
-  "textFiles": [
-    {
-      "sourceRoot": "../../shared",
-      "sourcePath": "text/_github-bug_report_template.md",
-      "targetPath": ".github/ISSUE_TEMPLATE/bug_report.md"
-    },
-    {
-      "sourceRoot": "../../shared",
-      "sourcePath": "text/_github-issue_template_config.yml",
-      "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
-    },
-    {
-      "sourcePath": "text/_vscode-extensions.json",
-      "targetPath": ".vscode/extensions.json"
-    },
-    {
-      "sourcePath": "text/_vscode-settings.json",
-      "targetPath": ".vscode/settings.json"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/gradle-wrapper.properties",
-      "targetPath": "gradle/wrapper/gradle-wrapper.properties"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/gradlew",
-      "targetPath": "gradlew",
-      "executable": true
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/gradlew.bat",
-      "targetPath": "gradlew.bat"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/spotless-kotlin-header.txt",
-      "targetPath": "spotless/kotlin-header.txt"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/spotless-prettier-config.json",
-      "targetPath": "spotless/prettier-config.json"
-    },
-    {
-      "sourcePath": "text/_editorconfig",
-      "targetPath": ".editorconfig"
-    },
-    {
-      "sourcePath": "text/_gitattributes",
-      "targetPath": ".gitattributes"
-    },
-    {
-      "sourcePath": "text/_gitignore",
-      "targetPath": ".gitignore"
-    },
-    {
-      "sourcePath": "text/AndroidManifest.xml",
-      "targetPath": "app/src/main/AndroidManifest.xml"
-    },
-    {
-      "sourcePath": "text/build.gradle.kts",
-      "targetPath": "build.gradle.kts"
-    },
-    {
-      "sourcePath": "text/gradle.properties",
-      "targetPath": "gradle.properties"
-    },
-    {
-      "sourcePath": "text/ic_launcher_background.xml",
-      "targetPath": "app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
-      "sourcePath": "text/ic_launcher_foreground.xml",
-      "targetPath": "app/src/main/res/drawable/ic_launcher_foreground.xml"
-    },
-    {
-      "sourcePath": "text/ic_launcher_round.xml",
-      "targetPath": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml"
-    },
-    {
-      "sourcePath": "text/ic_launcher.xml",
-      "targetPath": "app/src/main/res/mipmap-anydpi/ic_launcher.xml"
-    },
-    {
-      "sourcePath": "text/libs.versions.toml",
-      "targetPath": "gradle/libs.versions.toml"
-    },
-    {
-      "sourcePath": "text/night-themes.xml",
-      "targetPath": "app/src/main/res/values-night/themes.xml"
-    },
-    {
-      "sourcePath": "text/proguard-rules.pro",
-      "targetPath": "app/proguard-rules.pro"
-    },
-    {
-      "sourcePath": "text/spotless-xml-header.txt",
-      "targetPath": "spotless/xml-header.txt"
-    },
-    {
-      "sourcePath": "text/spotless-xml-config.prefs",
-      "targetPath": "spotless/xml-config.prefs"
-    },
-    {
-      "sourcePath": "text/themes.xml",
-      "targetPath": "app/src/main/res/values/themes.xml"
-    }
+  "files": [
+    { "path": "_editorconfig" },
+    { "path": "_gitattributes" },
+    { "path": "_github/ISSUE_TEMPLATE/bug_report.md", "root": "../../shared" },
+    { "path": "_github/ISSUE_TEMPLATE/config.yml", "root": "../../shared" },
+    { "path": "_gitignore" },
+    { "path": "_vscode/extensions.json" },
+    { "path": "_vscode/settings.json" },
+    { "path": "app/build.gradle.kts.ftl" },
+    { "path": "app/proguard-rules.pro" },
+    { "path": "app/src/androidTest/kotlin/ExampleInstrumentedTest.kt.ftl" },
+    { "path": "app/src/main/AndroidManifest.xml" },
+    { "path": "app/src/main/kotlin/MainActivity.kt.ftl" },
+    { "path": "app/src/main/kotlin/ui/theme/Color.kt.ftl" },
+    { "path": "app/src/main/kotlin/ui/theme/Theme.kt.ftl" },
+    { "path": "app/src/main/kotlin/ui/theme/Type.kt.ftl" },
+    { "path": "app/src/main/res/drawable/ic_launcher_background.xml" },
+    { "path": "app/src/main/res/drawable/ic_launcher_foreground.xml" },
+    { "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml" },
+    { "path": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" },
+    { "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp" },
+    { "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" },
+    { "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp" },
+    { "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" },
+    { "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp" },
+    { "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" },
+    { "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" },
+    { "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" },
+    { "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" },
+    { "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" },
+    { "path": "app/src/main/res/values-night/themes.xml" },
+    { "path": "app/src/main/res/values/strings.xml.ftl" },
+    { "path": "app/src/main/res/values/themes.xml" },
+    { "path": "app/src/test/kotlin/ExampleUnitTest.kt.ftl" },
+    { "path": "build.gradle.kts" },
+    { "path": "gradle.properties" },
+    { "path": "gradle/libs.versions.toml" },
+    { "path": "gradle/wrapper/gradle-wrapper.jar", "root": "../shared" },
+    { "path": "gradle/wrapper/gradle-wrapper.properties", "root": "../shared" },
+    { "path": "gradlew", "root": "../shared", "executable": true },
+    { "path": "gradlew.bat", "root": "../shared" },
+    { "path": "settings.gradle.kts.ftl" },
+    { "path": "spotless/kotlin-header.txt", "root": "../shared" },
+    { "path": "spotless/prettier-config.json", "root": "../shared" },
+    { "path": "spotless/xml-config.prefs" },
+    { "path": "spotless/xml-header.txt" }
   ]
 }

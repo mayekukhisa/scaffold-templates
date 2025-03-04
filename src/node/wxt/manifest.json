@@ -1,147 +1,36 @@
 {
-  "binaryFiles": [
-    {
-      "sourcePath": "binary/icon/16.png",
-      "targetPath": "src/public/icon/16.png"
-    },
-    {
-      "sourcePath": "binary/icon/32.png",
-      "targetPath": "src/public/icon/32.png"
-    },
-    {
-      "sourcePath": "binary/icon/48.png",
-      "targetPath": "src/public/icon/48.png"
-    },
-    {
-      "sourcePath": "binary/icon/96.png",
-      "targetPath": "src/public/icon/96.png"
-    },
-    {
-      "sourcePath": "binary/icon/128.png",
-      "targetPath": "src/public/icon/128.png"
-    }
-  ],
-  "freemarkerFiles": [
-    {
-      "sourcePath": "freemarker/app.tsx.ftl",
-      "targetPath": "src/entrypoints/popup/app.tsx"
-    },
-    {
-      "sourcePath": "freemarker/index.html.ftl",
-      "targetPath": "src/entrypoints/popup/index.html"
-    },
-    {
-      "sourcePath": "freemarker/package.json.ftl",
-      "targetPath": "package.json"
-    },
-    {
-      "sourcePath": "freemarker/wxt.config.ts.ftl",
-      "targetPath": "wxt.config.ts"
-    }
-  ],
-  "textFiles": [
-    {
-      "sourceRoot": "../../shared",
-      "sourcePath": "text/_github-bug_report_template.md",
-      "targetPath": ".github/ISSUE_TEMPLATE/bug_report.md"
-    },
-    {
-      "sourceRoot": "../../shared",
-      "sourcePath": "text/_github-issue_template_config.yml",
-      "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_editorconfig",
-      "targetPath": ".editorconfig"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_prettierrc.json",
-      "targetPath": ".prettierrc.json"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_vscode-extensions.json",
-      "targetPath": ".vscode/extensions.json"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_vscode-settings.json",
-      "targetPath": ".vscode/settings.json"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/codecap-general-header.txt",
-      "targetPath": "codecap/general-header.txt"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/codecap-postcss-config-header.txt",
-      "targetPath": "codecap/postcss-config-header.txt"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/globals.css",
-      "targetPath": "src/styles/globals.css"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/lib-utils.ts",
-      "targetPath": "src/lib/utils.ts"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/ui-button.tsx",
-      "targetPath": "src/components/ui/button.tsx"
-    },
-    {
-      "sourcePath": "text/_codecaprc.json",
-      "targetPath": ".codecaprc.json"
-    },
-    {
-      "sourcePath": "text/eslint.config.mjs",
-      "targetPath": "eslint.config.mjs"
-    },
-    {
-      "sourcePath": "text/_gitattributes",
-      "targetPath": ".gitattributes"
-    },
-    {
-      "sourcePath": "text/_gitignore",
-      "targetPath": ".gitignore"
-    },
-    {
-      "sourcePath": "text/main.tsx",
-      "targetPath": "src/entrypoints/popup/main.tsx"
-    },
-    {
-      "sourcePath": "text/postcss.config.mjs",
-      "targetPath": "postcss.config.mjs"
-    },
-    {
-      "sourcePath": "text/tailwind.config.ts",
-      "targetPath": "tailwind.config.ts"
-    },
-    {
-      "sourcePath": "text/tsconfig.json",
-      "targetPath": "tsconfig.json"
-    },
-    {
-      "sourcePath": "text/components.json",
-      "targetPath": "components.json"
-    },
-    {
-      "sourcePath": "text/components-theme-toggle.tsx",
-      "targetPath": "src/components/theme-toggle.tsx"
-    },
-    {
-      "sourcePath": "text/ui-dropdown-menu.tsx",
-      "targetPath": "src/components/ui/dropdown-menu.tsx"
-    },
-    {
-      "sourcePath": "text/contexts-theme.tsx",
-      "targetPath": "src/contexts/theme.tsx"
-    }
+  "files": [
+    { "path": "_codecaprc.json" },
+    { "path": "_editorconfig", "root": "../shared" },
+    { "path": "_gitattributes" },
+    { "path": "_github/ISSUE_TEMPLATE/bug_report.md", "root": "../../shared" },
+    { "path": "_github/ISSUE_TEMPLATE/config.yml", "root": "../../shared" },
+    { "path": "_gitignore" },
+    { "path": "_prettierrc.json", "root": "../shared" },
+    { "path": "_vscode/extensions.json", "root": "../shared" },
+    { "path": "_vscode/settings.json", "root": "../shared" },
+    { "path": "codecap/general-header.txt", "root": "../shared" },
+    { "path": "codecap/postcss-config-header.txt", "root": "../shared" },
+    { "path": "components.json" },
+    { "path": "eslint.config.mjs" },
+    { "path": "package.json.ftl" },
+    { "path": "postcss.config.mjs" },
+    { "path": "src/components/theme-toggle.tsx" },
+    { "path": "src/components/ui/button.tsx", "root": "../shared" },
+    { "path": "src/components/ui/dropdown-menu.tsx" },
+    { "path": "src/contexts/theme.tsx" },
+    { "path": "src/entrypoints/popup/app.tsx.ftl" },
+    { "path": "src/entrypoints/popup/index.html.ftl" },
+    { "path": "src/entrypoints/popup/main.tsx" },
+    { "path": "src/lib/utils.ts", "root": "../shared" },
+    { "path": "src/public/icon/128.png" },
+    { "path": "src/public/icon/16.png" },
+    { "path": "src/public/icon/32.png" },
+    { "path": "src/public/icon/48.png" },
+    { "path": "src/public/icon/96.png" },
+    { "path": "src/styles/globals.css", "root": "../shared" },
+    { "path": "tailwind.config.ts" },
+    { "path": "tsconfig.json" },
+    { "path": "wxt.config.ts.ftl" }
   ]
 }

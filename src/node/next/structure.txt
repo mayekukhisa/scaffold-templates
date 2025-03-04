@@ -15,7 +15,6 @@
 644 ./package.json
 644 ./postcss.config.mjs
 644 ./src/app/favicon.ico
-644 ./src/app/globals.css
 644 ./src/app/layout.tsx
 644 ./src/app/page.tsx
 644 ./src/components/theme-toggle.tsx
@@ -24,5 +23,6 @@
 644 ./src/contexts/theme.tsx
 644 ./src/lib/configs.ts
 644 ./src/lib/utils.ts
+644 ./src/styles/globals.css
 644 ./tailwind.config.ts
 644 ./tsconfig.json

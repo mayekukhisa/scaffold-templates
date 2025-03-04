@@ -1,131 +1,32 @@
 {
-  "binaryFiles": [
-    {
-      "sourcePath": "binary/app-favicon.ico",
-      "targetPath": "src/app/favicon.ico"
-    }
-  ],
-  "freemarkerFiles": [
-    {
-      "sourcePath": "freemarker/app-page.tsx.ftl",
-      "targetPath": "src/app/page.tsx"
-    },
-    {
-      "sourcePath": "freemarker/lib-configs.ts.ftl",
-      "targetPath": "src/lib/configs.ts"
-    },
-    {
-      "sourcePath": "freemarker/package.json.ftl",
-      "targetPath": "package.json"
-    }
-  ],
-  "textFiles": [
-    {
-      "sourceRoot": "../../shared",
-      "sourcePath": "text/_github-bug_report_template.md",
-      "targetPath": ".github/ISSUE_TEMPLATE/bug_report.md"
-    },
-    {
-      "sourceRoot": "../../shared",
-      "sourcePath": "text/_github-issue_template_config.yml",
-      "targetPath": ".github/ISSUE_TEMPLATE/config.yml"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_editorconfig",
-      "targetPath": ".editorconfig"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_prettierrc.json",
-      "targetPath": ".prettierrc.json"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_vscode-extensions.json",
-      "targetPath": ".vscode/extensions.json"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/_vscode-settings.json",
-      "targetPath": ".vscode/settings.json"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/codecap-general-header.txt",
-      "targetPath": "codecap/general-header.txt"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/codecap-postcss-config-header.txt",
-      "targetPath": "codecap/postcss-config-header.txt"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/globals.css",
-      "targetPath": "src/app/globals.css"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/lib-utils.ts",
-      "targetPath": "src/lib/utils.ts"
-    },
-    {
-      "sourceRoot": "../shared",
-      "sourcePath": "text/ui-button.tsx",
-      "targetPath": "src/components/ui/button.tsx"
-    },
-    {
-      "sourcePath": "text/_codecaprc.json",
-      "targetPath": ".codecaprc.json"
-    },
-    {
-      "sourcePath": "text/_gitattributes",
-      "targetPath": ".gitattributes"
-    },
-    {
-      "sourcePath": "text/_gitignore",
-      "targetPath": ".gitignore"
-    },
-    {
-      "sourcePath": "text/app-layout.tsx",
-      "targetPath": "src/app/layout.tsx"
-    },
-    {
-      "sourcePath": "text/components-theme-toggle.tsx",
-      "targetPath": "src/components/theme-toggle.tsx"
-    },
-    {
-      "sourcePath": "text/components.json",
-      "targetPath": "components.json"
-    },
-    {
-      "sourcePath": "text/contexts-theme.tsx",
-      "targetPath": "src/contexts/theme.tsx"
-    },
-    {
-      "sourcePath": "text/eslint.config.mjs",
-      "targetPath": "eslint.config.mjs"
-    },
-    {
-      "sourcePath": "text/next.config.ts",
-      "targetPath": "next.config.ts"
-    },
-    {
-      "sourcePath": "text/postcss.config.mjs",
-      "targetPath": "postcss.config.mjs"
-    },
-    {
-      "sourcePath": "text/tailwind.config.ts",
-      "targetPath": "tailwind.config.ts"
-    },
-    {
-      "sourcePath": "text/tsconfig.json",
-      "targetPath": "tsconfig.json"
-    },
-    {
-      "sourcePath": "text/ui-dropdown-menu.tsx",
-      "targetPath": "src/components/ui/dropdown-menu.tsx"
-    }
+  "files": [
+    { "path": "_codecaprc.json" },
+    { "path": "_editorconfig", "root": "../shared" },
+    { "path": "_gitattributes" },
+    { "path": "_github/ISSUE_TEMPLATE/bug_report.md", "root": "../../shared" },
+    { "path": "_github/ISSUE_TEMPLATE/config.yml", "root": "../../shared" },
+    { "path": "_gitignore" },
+    { "path": "_prettierrc.json", "root": "../shared" },
+    { "path": "_vscode/extensions.json", "root": "../shared" },
+    { "path": "_vscode/settings.json", "root": "../shared" },
+    { "path": "codecap/general-header.txt", "root": "../shared" },
+    { "path": "codecap/postcss-config-header.txt", "root": "../shared" },
+    { "path": "components.json" },
+    { "path": "eslint.config.mjs" },
+    { "path": "next.config.ts" },
+    { "path": "package.json.ftl" },
+    { "path": "postcss.config.mjs" },
+    { "path": "src/app/favicon.ico" },
+    { "path": "src/app/layout.tsx" },
+    { "path": "src/app/page.tsx.ftl" },
+    { "path": "src/components/theme-toggle.tsx" },
+    { "path": "src/components/ui/button.tsx", "root": "../shared" },
+    { "path": "src/components/ui/dropdown-menu.tsx" },
+    { "path": "src/contexts/theme.tsx" },
+    { "path": "src/lib/configs.ts.ftl" },
+    { "path": "src/lib/utils.ts", "root": "../shared" },
+    { "path": "src/styles/globals.css", "root": "../shared" },
+    { "path": "tailwind.config.ts" },
+    { "path": "tsconfig.json" }
   ]
 }
