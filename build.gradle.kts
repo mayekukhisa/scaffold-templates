@@ -56,7 +56,7 @@ spotless {
 
   format("FreeMarker") {
     target("src/**/*.ftl")
-    licenseHeaderFile(rootProject.file("spotless/headers/freemarker.txt"), "^(?!<#| ~| -).")
+    licenseHeaderFile(rootProject.file("spotless/headers/freemarker.txt"), "^(?!<#--|\\s*?~|\\s*?-).")
       .updateYearWithLatest(true)
   }
 

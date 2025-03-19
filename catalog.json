@@ -9,6 +9,10 @@
       "path": "src/gradle/android"
     },
     {
+      "name": "expo",
+      "path": "src/node/expo"
+    },
+    {
       "name": "kotlin",
       "path": "src/gradle/kotlin"
     },

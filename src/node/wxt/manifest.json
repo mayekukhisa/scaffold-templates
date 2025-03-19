@@ -2,7 +2,7 @@
   "files": [
     { "path": "_codecaprc.json" },
     { "path": "_editorconfig", "root": "../shared" },
-    { "path": "_gitattributes" },
+    { "path": "_gitattributes", "root": "../shared" },
     { "path": "_github/ISSUE_TEMPLATE/bug_report.md", "root": "../../shared" },
     { "path": "_github/ISSUE_TEMPLATE/config.yml", "root": "../../shared" },
     { "path": "_gitignore" },

@@ -1,0 +1,10 @@
+{
+  "useYearRange": true,
+  "ruleSet": [
+    {
+      "target": ["**/*.{css,ts,tsx}", "*.js"],
+      "headerFile": "codecap/general-header.txt",
+      "headerDelimiter": "^(?![\\/ ]\\*)."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "files": [
+    { "path": "_codecaprc.json" },
+    { "path": "_editorconfig", "root": "../shared" },
+    { "path": "_eslintrc.json" },
+    { "path": "_github/ISSUE_TEMPLATE/bug_report.md", "root": "../../shared" },
+    { "path": "_github/ISSUE_TEMPLATE/config.yml", "root": "../../shared" },
+    { "path": "_gitignore" },
+    { "path": "_gitattributes", "root": "../shared" },
+    { "path": "_npmrc" },
+    { "path": "_prettierrc.json", "root": "../shared" },
+    { "path": "_vscode/extensions.json" },
+    { "path": "_vscode/settings.json", "root": "../shared" },
+    { "path": "app.json.ftl" },
+    { "path": "babel.config.js" },
+    { "path": "codecap/general-header.txt", "root": "../shared" },
+    { "path": "metro.config.js" },
+    { "path": "package.json.ftl" },
+    { "path": "src/app/_layout.tsx" },
+    { "path": "src/app/index.tsx" },
+    { "path": "src/assets/images/adaptive-icon.png" },
+    { "path": "src/assets/images/favicon.png" },
+    { "path": "src/assets/images/icon.png" },
+    { "path": "src/assets/images/splash-icon.png" },
+    { "path": "src/lib/configs.ts.ftl" },
+    { "path": "src/styles/globals.css" },
+    { "path": "tailwind.config.ts" },
+    { "path": "tsconfig.json" }
+  ]
+}
