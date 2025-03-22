@@ -1,6 +1,6 @@
 {
   "files": [
-    { "path": "_codecaprc.json" },
+    { "path": "_codecaprc.json", "root": "../shared" },
     { "path": "_editorconfig", "root": "../shared" },
     { "path": "_gitattributes", "root": "../shared" },
     { "path": "_github/ISSUE_TEMPLATE/bug_report.md", "root": "../../shared" },
@@ -10,7 +10,6 @@
     { "path": "_vscode/extensions.json", "root": "../shared" },
     { "path": "_vscode/settings.json", "root": "../shared" },
     { "path": "codecap/general-header.txt", "root": "../shared" },
-    { "path": "codecap/postcss-config-header.txt", "root": "../shared" },
     { "path": "components.json" },
     { "path": "eslint.config.mjs" },
     { "path": "next.config.ts" },
@@ -18,7 +17,7 @@
     { "path": "postcss.config.mjs" },
     { "path": "src/app/favicon.ico" },
     { "path": "src/app/layout.tsx" },
-    { "path": "src/app/page.tsx.ftl" },
+    { "path": "src/app/page.tsx" },
     { "path": "src/components/theme-toggle.tsx" },
     { "path": "src/components/ui/button.tsx", "root": "../shared" },
     { "path": "src/components/ui/dropdown-menu.tsx" },
@@ -26,7 +25,6 @@
     { "path": "src/lib/configs.ts.ftl" },
     { "path": "src/lib/utils.ts", "root": "../shared" },
     { "path": "src/styles/globals.css", "root": "../shared" },
-    { "path": "tailwind.config.ts" },
     { "path": "tsconfig.json" }
   ]
 }

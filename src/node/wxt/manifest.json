@@ -1,6 +1,6 @@
 {
   "files": [
-    { "path": "_codecaprc.json" },
+    { "path": "_codecaprc.json", "root": "../shared" },
     { "path": "_editorconfig", "root": "../shared" },
     { "path": "_gitattributes", "root": "../shared" },
     { "path": "_github/ISSUE_TEMPLATE/bug_report.md", "root": "../../shared" },
@@ -10,7 +10,6 @@
     { "path": "_vscode/extensions.json", "root": "../shared" },
     { "path": "_vscode/settings.json", "root": "../shared" },
     { "path": "codecap/general-header.txt", "root": "../shared" },
-    { "path": "codecap/postcss-config-header.txt", "root": "../shared" },
     { "path": "components.json" },
     { "path": "eslint.config.mjs" },
     { "path": "package.json.ftl" },
@@ -19,9 +18,10 @@
     { "path": "src/components/ui/button.tsx", "root": "../shared" },
     { "path": "src/components/ui/dropdown-menu.tsx" },
     { "path": "src/contexts/theme.tsx" },
-    { "path": "src/entrypoints/popup/app.tsx.ftl" },
+    { "path": "src/entrypoints/popup/app.tsx" },
     { "path": "src/entrypoints/popup/index.html.ftl" },
     { "path": "src/entrypoints/popup/main.tsx" },
+    { "path": "src/lib/configs.ts.ftl" },
     { "path": "src/lib/utils.ts", "root": "../shared" },
     { "path": "src/public/icon/128.png" },
     { "path": "src/public/icon/16.png" },
@@ -29,7 +29,6 @@
     { "path": "src/public/icon/48.png" },
     { "path": "src/public/icon/96.png" },
     { "path": "src/styles/globals.css", "root": "../shared" },
-    { "path": "tailwind.config.ts" },
     { "path": "tsconfig.json" },
     { "path": "wxt.config.ts.ftl" }
   ]
