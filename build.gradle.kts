@@ -16,10 +16,10 @@ spotless {
     target("**/*.kts")
     targetExclude("**/build/**/*.kts", "**/src/**/*.kts")
     ktlint()
-    licenseHeaderFile(rootProject.file("spotless/headers/kotlin.txt"), "^(?![\\/ ]\\*).").updateYearWithLatest(true)
+    licenseHeaderFile(rootProject.file("spotless/kotlin-header.txt"), "^(?![\\/ ]\\*).").updateYearWithLatest(true)
   }
 
-  with(rootProject.file("spotless/configs/prettierrc.json")) {
+  with(rootProject.file("spotless/prettier-config.json")) {
     javascript {
       target("src/**/*.mjs")
       prettier().configFile(this@with)
@@ -56,14 +56,14 @@ spotless {
 
   format("FreeMarker") {
     target("src/**/*.ftl")
-    licenseHeaderFile(rootProject.file("spotless/headers/freemarker.txt"), "^(?!<#--|\\s*?~|\\s*?-).")
+    licenseHeaderFile(rootProject.file("spotless/freemarker-header.txt"), "^(?!<#--|\\s*?~|\\s*?-).")
       .updateYearWithLatest(true)
   }
 
   format("Xml") {
     target("src/**/*.xml")
     eclipseWtp(EclipseWtpFormatterStep.XML).configFile(
-      rootProject.file("spotless/configs/xml.prefs"),
+      rootProject.file("spotless/xml-config.prefs"),
     )
   }
 
