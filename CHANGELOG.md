@@ -1,5 +1,35 @@
 # Changelog
 
+## [0.5.0](https://github.com/mayekukhisa/scaffold-templates/compare/v0.4.0...v0.5.0) (2025-03-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* Template directory structures have been reorganized to better align with their target project structures, and manifest files have been simplified by using a single `path` property to handle both source and target paths.
+
+### Features
+
+* add `expo` template ([768930e](https://github.com/mayekukhisa/scaffold-templates/commit/768930edef3e46452424274d043fde0bbae4315c))
+* update `android` template to Compose BOM 2025.03.00 ([7d81425](https://github.com/mayekukhisa/scaffold-templates/commit/7d81425db699c1dddc1a490c2ce9c10e2b86f2e4))
+* update `kotlin` template to Kotlin 2.1.20 ([2ee6cd2](https://github.com/mayekukhisa/scaffold-templates/commit/2ee6cd2a1cd843ec3d624eeb171c035b23930d9c))
+* update `next` template to Next.js ~15.2.3 & `wxt` to WXT ~0.19.29 ([8ecbe90](https://github.com/mayekukhisa/scaffold-templates/commit/8ecbe90728d545950c3e6ccdfb4d0eecf4dab819))
+
+
+### Bug Fixes
+
+* add missing @eslint/eslintrc package in `next` template ([8ecbe90](https://github.com/mayekukhisa/scaffold-templates/commit/8ecbe90728d545950c3e6ccdfb4d0eecf4dab819))
+* correct Tailwind CSS path in shadcn/ui config for `next` template ([4fa2b95](https://github.com/mayekukhisa/scaffold-templates/commit/4fa2b95c0be27890e3e362b2efe120f18a11f110))
+
+
+### Code Refactoring
+
+* simplify template directory structures and manifests ([8a6ea64](https://github.com/mayekukhisa/scaffold-templates/commit/8a6ea64bff9e7c6a4d430608a9a8e0c55bb13c99))
+
+
+### Continuous Integration
+
+* set next release version to 0.5.0 ([b82157e](https://github.com/mayekukhisa/scaffold-templates/commit/b82157e0fb8b939458881b1e28d6d9858cf4658e))
+
 ## [0.4.0](https://github.com/mayekukhisa/scaffold-templates/compare/v0.3.0...v0.4.0) (2025-01-26)
 
 
