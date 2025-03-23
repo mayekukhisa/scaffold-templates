@@ -1,6 +1,6 @@
 [versions]
-kotlin = "2.1.0"
-spotless = "7.0.1"
+kotlin = "2.1.20"
+spotless = "7.0.2"
 
 [libraries]
 kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version.ref = "kotlin" }
