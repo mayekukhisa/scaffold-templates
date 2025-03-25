@@ -26,9 +26,11 @@
     ],
     "newArchEnabled": true,
     "ios": {
+      "bundleIdentifier": "${packageName}",
       "supportsTablet": true
     },
     "android": {
+      "package": "${packageName}",
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png"
       }

@@ -30,6 +30,7 @@
     "react-native": "~0.76.7",
     "react-native-paper": "^5.13.1",
     "react-native-safe-area-context": "~4.12.0",
+    "react-native-screens": "~4.4.0",
     "react-native-web": "~0.19.13",
     "tailwindcss": "^3.4.17"
   },
