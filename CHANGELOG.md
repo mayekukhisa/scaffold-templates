@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/mayekukhisa/scaffold-templates/compare/v0.5.0...v0.5.1) (2025-03-25)
+
+
+### Bug Fixes
+
+* **expo:** resolve development build launch issues ([92be0dd](https://github.com/mayekukhisa/scaffold-templates/commit/92be0dd1e210bf79c1e6d5fb46d84c8cecdbef10))
+
 ## [0.5.0](https://github.com/mayekukhisa/scaffold-templates/compare/v0.4.0...v0.5.0) (2025-03-23)
 
 
